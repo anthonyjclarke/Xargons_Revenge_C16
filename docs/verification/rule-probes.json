@@ -1,0 +1,698 @@
+{
+  "method": "Workspace caller at $0300; SEI/CLD; A/X/Y and named RAM set as recorded; original instructions unchanged; no concurrent IRQ execution",
+  "scope": "44 isolated observations; not manual controls, timing, transitions, overflow safety or full gameplay verification",
+  "source_prg_sha256": "32c13c8867ea97bb4fd60ac9a73e5d7a600c04ece5699ac37680143c12adce33",
+  "reference_memory_sha256": "1b22b632ee826b7825e73b004d2ce02c02e182e4c46e7c6e7d9408c671e4576a",
+  "checks": [
+    {
+      "version": "source",
+      "probe": "alien-0",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 0
+      },
+      "memory_sha256": "904e9d2ddf67ee57d37776522c51bf5ffdfa4ee81305d6b73cb4284dddb542fb",
+      "output_hex": "00000000307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e03000000"
+    },
+    {
+      "version": "source",
+      "probe": "alien-1",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 1
+      },
+      "memory_sha256": "8161b2c4ce1270e19074e469f1063de7232f18e56ce4b48337924c9ee357574d",
+      "output_hex": "01010100010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c0000"
+    },
+    {
+      "version": "source",
+      "probe": "alien-2",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 2
+      },
+      "memory_sha256": "7d1d7a73655fac3501a6c0d5031d8e217ecb8b1421f55f3426d71b7e65f99939",
+      "output_hex": "124a200f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e180000"
+    },
+    {
+      "version": "source",
+      "probe": "alien-3",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 3
+      },
+      "memory_sha256": "2e57798f7cfe5d8ebf3694e1a83f60f193463659223c34b5727b68c4cb9a116a",
+      "output_hex": "00010000307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c18"
+    },
+    {
+      "version": "source",
+      "probe": "alien-4",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 4
+      },
+      "memory_sha256": "4d1249c1e9b727f38b63596923b160a92dd33978951b297d1e041c48fd3030d2",
+      "output_hex": "003e03071c7eff1c037f866ce80eff381cff7e1c07033e0038ff0ee86c867f0300000078077fff1c00001f70f80cff381cff7f077800000038ff0cf8701f0000"
+    },
+    {
+      "version": "source",
+      "probe": "alien-5",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 5
+      },
+      "memory_sha256": "17ead586203b4b86cbc1a61aba3a5caab629c8de55d3c70cf32f476153dc74f1",
+      "output_hex": "0704050407c0cfb7f010d010f003f3edcfc0070405040700f303f010d010f00007060101fa8bababc0c00000bea2aaaaab8bfa0101060700aaa2be0000c0c000"
+    },
+    {
+      "version": "source",
+      "probe": "alien-6",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 6
+      },
+      "memory_sha256": "da0fd61c5ec2534c8fa51a5d891ce9451f584571c5f3fec74c197fc06b39cf43",
+      "output_hex": "070d091f17080f23e0b090f8e810f0c4611a1f0763573e1c8658f8e0c6ea7c38070d0b1e16080e03e0b0d078681070c0011b160e0317361480d86870c0e86c28"
+    },
+    {
+      "version": "source",
+      "probe": "alien-7",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 7
+      },
+      "memory_sha256": "8fbcb6344baee7019abdc6a1014400ee3f8532248acb59f36a9226070d8a09e0",
+      "output_hex": "003c35253d011f2e003caca4bc80f8745ebebf5e5e2c2c1c7a7dfd7a7a343438001e12161e001f26007848687800f8643b3a3a1a1e0d0f06dc5c5c5878b0f060"
+    },
+    {
+      "version": "source",
+      "probe": "alien-8",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 8
+      },
+      "memory_sha256": "34776786c5e20d7ec6281e9982ca2c6a894d82d31bdeee09be8e6a176f12b77b",
+      "output_hex": "010701000d1f7ffff86ef819fefcfff89f6d120d00010701f8f70cfe19f86ef8010701000d136c9ff018f0f0fcea28f4ff7f1f0d00010701f4e8eaecf0f018f0"
+    },
+    {
+      "version": "source",
+      "probe": "alien-9",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 9
+      },
+      "memory_sha256": "06c8ebe24b92d1e0b89b8688a3358ecb8f43926fd4ca79afac5dbeb64a8528a2",
+      "output_hex": "00000000c7fbc7034040808070f8f8f0083f7f0f2f777b3004fef4e8dcbc9800010000001b1d1b0100804040b8fcfcf8027f0f2f777b300004fcf8f0ecdcbc18"
+    },
+    {
+      "version": "source",
+      "probe": "alien-10",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 10
+      },
+      "memory_sha256": "ac8d9c9a998ea1324c46c83c8dfae884de7000c108466c7d16bb6bfc96807ee5",
+      "output_hex": "03070606060606068edbdbdbdbdbdbdb0666fedcd8f06000d9d9d8d8d8f8700060f0d8dcfe66060670f8d8d8d8d9d9db0606060606070300dbdbdbdbdbdb8e00"
+    },
+    {
+      "version": "source",
+      "probe": "alien-11",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 11
+      },
+      "memory_sha256": "649de904de0533fab7e6bdf7f5e81f879c7bc6e2b08ee70cc1151f60ce831144",
+      "output_hex": "030111310f0889f980001018e020223e89080f31110103002220e018100080002040a3110f082a3908048a10e020283828080f11a3402000a820e0108a040800"
+    },
+    {
+      "version": "source",
+      "probe": "alien-12",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 12
+      },
+      "memory_sha256": "afe3da46089d065508744e3285310f02b7bd8f87c514f4526bc34c0ec8905da7",
+      "output_hex": "110a0a0f10609fa0885050f00806f905a656502f20180403656a0af4041820c024120a0f10204748244850f00804e212492524131008040392a424c8081020c0"
+    },
+    {
+      "version": "source",
+      "probe": "alien-13",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 13
+      },
+      "memory_sha256": "aeed5461298747b873f123a7c96ad1a396e4ea08bdc2b7ace63ac1897808685a",
+      "output_hex": "0c070c00020a6aea0080818383878fb0ea6a0a02000c070cb08f878383818000000c070c000008ea0000808080878fb0ea0800000c070c00b08f878080800000"
+    },
+    {
+      "version": "source",
+      "probe": "alien-14",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 14
+      },
+      "memory_sha256": "6f410c248aa1df4ce94a2e2dcfe80fb413a98864daa8e24cd2526a7e45a18a35",
+      "output_hex": "00010303070f003f80800000040808f03f000f0703030100f008080400008080000000030f1e003f0030f8c0001820c03f001e0f03000000c0201800c0f83000"
+    },
+    {
+      "version": "source",
+      "probe": "alien-15",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 15
+      },
+      "memory_sha256": "f3f842cb8233bdaade66af05cb4a58146a7700f143e41f994c2126157ac21b50",
+      "output_hex": "030e3c3c7c7cc382c0703c3c3e3ec34182c37c7c3c1e0f0341c33e3e3c38f0c0010206060606090b80406060606090d009060606060602019060606060604080"
+    },
+    {
+      "version": "source",
+      "probe": "score-49999-plus-1",
+      "routine": "SCORE",
+      "address": 13777,
+      "inputs": {
+        "SCRBUF": [
+          0,
+          0,
+          0,
+          4,
+          9,
+          9,
+          9,
+          9
+        ],
+        "XTRA": 0,
+        "LIVES": 5,
+        "RND": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "memory_sha256": "e439713e9dec956ff1f22c39a8ff1d515b9e7d9ccece543076aaa83802ccb3e5",
+      "score_digits": [
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lives": 6,
+      "scradd": 1
+    },
+    {
+      "version": "source",
+      "probe": "score-99999-plus-1",
+      "routine": "SCORE",
+      "address": 13777,
+      "inputs": {
+        "SCRBUF": [
+          0,
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "XTRA": 5,
+        "LIVES": 5,
+        "RND": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "memory_sha256": "e09e742dcbdf84d21b08c8421a8a471889ed3a5c0683f688334513080b7d280f",
+      "score_digits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lives": 6,
+      "scradd": 1
+    },
+    {
+      "version": "source",
+      "probe": "score-full-overflow",
+      "routine": "SCORE",
+      "address": 13777,
+      "inputs": {
+        "SCRBUF": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "XTRA": 0,
+        "LIVES": 5,
+        "SCRADD": 0,
+        "RND": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "memory_sha256": "05cc543afd703c84d58fada207214f75a7c4699d891412eea6142e87fcd95404",
+      "score_digits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lives": 5,
+      "scradd": 1
+    },
+    {
+      "version": "source",
+      "probe": "fuel-cap",
+      "routine": "ADFUEL",
+      "address": 13457,
+      "inputs": {
+        "FUEL": 110,
+        "FULINC": 4,
+        "CTLFUL": 0
+      },
+      "memory_sha256": "dc16ac342b062166e092a5409ab37deb47f872c85ed307cf17e996737e3de9ba",
+      "fuel": 111,
+      "request": 0,
+      "dead": 0
+    },
+    {
+      "version": "source",
+      "probe": "fuel-zero-shot",
+      "routine": "SHOTFL",
+      "address": 13413,
+      "inputs": {
+        "FUEL": 0,
+        "DEAD": 0,
+        "FXNUMB": 128,
+        "RND": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "memory_sha256": "83dd954fd6804baf5c3fa3da6fac172478d2b0044899f6141fd6884e8c70659f",
+      "fuel": 255,
+      "request": 0,
+      "dead": 0
+    },
+    {
+      "version": "source",
+      "probe": "fuel-one-shot",
+      "routine": "SHOTFL",
+      "address": 13413,
+      "inputs": {
+        "FUEL": 1,
+        "DEAD": 0,
+        "FXNUMB": 128
+      },
+      "memory_sha256": "978b1bccaf195a4723b74ba6c14993ac6e743604d9e0f7a0ba692a814ae1b7ed",
+      "fuel": 0,
+      "request": 0,
+      "dead": 1
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-0",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 0
+      },
+      "memory_sha256": "02365a760f01cc214618cf55dfb9a2d8c5cd7108bb0ace9cd18950394f7cdc92",
+      "output_hex": "00000000307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e03000000"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-1",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 1
+      },
+      "memory_sha256": "29855187a2097fc7f6409fe4195f5babe4097222dcf71cce6d70f71ceecba7f8",
+      "output_hex": "01010100010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c0000"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-2",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 2
+      },
+      "memory_sha256": "8856a28b31d2f8141a980bd18a4e86e39dbcd366599344b925327cc75c40923b",
+      "output_hex": "124a200f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e180000"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-3",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 3
+      },
+      "memory_sha256": "b0d2ed3c2648fb7cb535c8cd77624c0b364bbe220b03b18e0bd1732b148df758",
+      "output_hex": "00010000307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c18"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-4",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 4
+      },
+      "memory_sha256": "f77f7f1b65a44f2f3973c317e011f28166eab44918c1ff10388e9e80f129f354",
+      "output_hex": "000000307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e0300000001"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-5",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 5
+      },
+      "memory_sha256": "5c12d0965d93cd992e9037f9da0f9c0367c76d64c0324170e07214246e94c088",
+      "output_hex": "010100010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c000012"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-6",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 6
+      },
+      "memory_sha256": "6b0f5c245551dabaa084252ff87dabde53c408ac9c7d7722a94b423d14009a00",
+      "output_hex": "4a200f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e18000000"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-7",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 7
+      },
+      "memory_sha256": "1ec05c4fbea0710199b073bb232d4cde67b3a59a1d313a0a6912efa5330d9709",
+      "output_hex": "010000307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c1800"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-8",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 8
+      },
+      "memory_sha256": "d9570bfb457ff8b001cae1e8fd1900ab8c0ecdcc26a3e6a92572ea594e2db6ec",
+      "output_hex": "0000307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e030000000101"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-9",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 9
+      },
+      "memory_sha256": "64455d115f3a9239df44c1430bc9f51d3f3141003691d69a8f6f5318a29aeb93",
+      "output_hex": "0100010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c0000124a"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-10",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 10
+      },
+      "memory_sha256": "c64d46b3d52b11541d3462e3800e39feeb3c4a0c75baf0f372aa0fba1284c485",
+      "output_hex": "200f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e1800000001"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-11",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 11
+      },
+      "memory_sha256": "6f8169fc74458cbcb9ec473d7c7e0883e4c8e7f041bce20053b9a87ceaaca2e5",
+      "output_hex": "0000307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c18003e"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-12",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 12
+      },
+      "memory_sha256": "22eae536f9e50248fc784bc1d8a924b230210d11dfe5b4e108034c3f12390f1d",
+      "output_hex": "00307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e03000000010101"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-13",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 13
+      },
+      "memory_sha256": "21ce0e8c2ee8e88e964907e8d0fee5a8bd55a282017432e73cdeb1c55cabafa5",
+      "output_hex": "00010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c0000124a20"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-14",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 14
+      },
+      "memory_sha256": "60dff104ad22e6963fac64be1c49079c54b1e327498a44efff6c0d3db7caf717",
+      "output_hex": "0f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e180000000100"
+    },
+    {
+      "version": "running-reference",
+      "probe": "alien-15",
+      "routine": "ALIDEF",
+      "address": 7468,
+      "inputs": {
+        "SHEET": 15
+      },
+      "memory_sha256": "a4435c967483e0bee8fce33fa3a7b67ea07d255a6791271c4de3208a539f6cb9",
+      "output_hex": "00307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c18003e03"
+    },
+    {
+      "version": "running-reference",
+      "probe": "score-49999-plus-1",
+      "routine": "SCORE",
+      "address": 13777,
+      "inputs": {
+        "SCRBUF": [
+          0,
+          0,
+          0,
+          4,
+          9,
+          9,
+          9,
+          9
+        ],
+        "XTRA": 0,
+        "LIVES": 5,
+        "RND": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "memory_sha256": "eb9b33915dd6d60527cbd7fd8503b526e9348c121abecea43e86ed9494a43d21",
+      "score_digits": [
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lives": 6,
+      "scradd": 1
+    },
+    {
+      "version": "running-reference",
+      "probe": "score-99999-plus-1",
+      "routine": "SCORE",
+      "address": 13777,
+      "inputs": {
+        "SCRBUF": [
+          0,
+          0,
+          0,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "XTRA": 5,
+        "LIVES": 5,
+        "RND": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "memory_sha256": "cb379c8437329540f9f028d1d2bc12d3724ec0318a0e4250962487db8e693ba4",
+      "score_digits": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lives": 6,
+      "scradd": 1
+    },
+    {
+      "version": "running-reference",
+      "probe": "score-full-overflow",
+      "routine": "SCORE",
+      "address": 13777,
+      "inputs": {
+        "SCRBUF": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "XTRA": 0,
+        "LIVES": 5,
+        "SCRADD": 0,
+        "RND": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "memory_sha256": "139d242837068d54f9c4c4a4faafd8fdf0594566e4ca825afc03d3d4e7765780",
+      "score_digits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lives": 5,
+      "scradd": 1
+    },
+    {
+      "version": "running-reference",
+      "probe": "fuel-cap",
+      "routine": "ADFUEL",
+      "address": 13457,
+      "inputs": {
+        "FUEL": 110,
+        "FULINC": 4,
+        "CTLFUL": 0
+      },
+      "memory_sha256": "b98e4e4f721d988a8861180d6de09b42be2d94c392f7ec1ca5c42dccc54f356c",
+      "fuel": 111,
+      "request": 0,
+      "dead": 0
+    },
+    {
+      "version": "running-reference",
+      "probe": "fuel-zero-shot",
+      "routine": "SHOTFL",
+      "address": 13413,
+      "inputs": {
+        "FUEL": 0,
+        "DEAD": 0,
+        "FXNUMB": 128,
+        "RND": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "memory_sha256": "11b8bce4b1df1f58166afea0d13ea67b25ace90349fcfbc47e51ac1cc399579a",
+      "fuel": 255,
+      "request": 0,
+      "dead": 0
+    },
+    {
+      "version": "running-reference",
+      "probe": "fuel-one-shot",
+      "routine": "SHOTFL",
+      "address": 13413,
+      "inputs": {
+        "FUEL": 1,
+        "DEAD": 0,
+        "FXNUMB": 128
+      },
+      "memory_sha256": "3005f3ee44cec04cb4c87c1f2a53b7cb3ceecf712b0cdbded3daad5fd38345a4",
+      "fuel": 0,
+      "request": 0,
+      "dead": 1
+    }
+  ]
+}

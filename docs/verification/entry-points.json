@@ -1,0 +1,15 @@
+{
+  "tested": [
+    "python3 scripts/restore_c16.py",
+    "./build.sh",
+    "make",
+    "pio run -e c16",
+    "pio run -e c16_debug"
+  ],
+  "outputs": {
+    "build/xargons-revenge.prg": "32c13c8867ea97bb4fd60ac9a73e5d7a600c04ece5699ac37680143c12adce33",
+    "build/platformio/c16/xargons-revenge.prg": "32c13c8867ea97bb4fd60ac9a73e5d7a600c04ece5699ac37680143c12adce33",
+    "build/platformio/c16_debug/xargons-revenge.prg": "32c13c8867ea97bb4fd60ac9a73e5d7a600c04ece5699ac37680143c12adce33"
+  },
+  "identical": true
+}

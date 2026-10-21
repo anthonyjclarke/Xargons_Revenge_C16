@@ -1,0 +1,164 @@
+{
+  "load_address": "$0400",
+  "entry_address": "$1800",
+  "output_bytes": 15362,
+  "sha256": "32c13c8867ea97bb4fd60ac9a73e5d7a600c04ece5699ac37680143c12adce33",
+  "code_and_embedded_data_bytes": 8094,
+  "object_listing_bytes": 8094,
+  "object_listing_differences": [],
+  "object_listing_range": [
+    6144,
+    14238
+  ],
+  "unrecorded_code_bytes": [],
+  "terrain_source_bytes": 2048,
+  "terrain_source_vs_loader_differences": [
+    {
+      "address": 4502,
+      "source": 85,
+      "loader_asset": 0
+    },
+    {
+      "address": 4503,
+      "source": 175,
+      "loader_asset": 5
+    },
+    {
+      "address": 4534,
+      "source": 64,
+      "loader_asset": 85
+    },
+    {
+      "address": 4535,
+      "source": 212,
+      "loader_asset": 175
+    },
+    {
+      "address": 5179,
+      "source": 1,
+      "loader_asset": 0
+    },
+    {
+      "address": 5180,
+      "source": 1,
+      "loader_asset": 0
+    },
+    {
+      "address": 5183,
+      "source": 1,
+      "loader_asset": 0
+    },
+    {
+      "address": 5407,
+      "source": 1,
+      "loader_asset": 0
+    },
+    {
+      "address": 5424,
+      "source": 255,
+      "loader_asset": 194
+    },
+    {
+      "address": 5425,
+      "source": 255,
+      "loader_asset": 204
+    },
+    {
+      "address": 5426,
+      "source": 255,
+      "loader_asset": 209
+    },
+    {
+      "address": 5427,
+      "source": 255,
+      "loader_asset": 212
+    },
+    {
+      "address": 5428,
+      "source": 191,
+      "loader_asset": 85
+    },
+    {
+      "address": 5429,
+      "source": 191,
+      "loader_asset": 150
+    },
+    {
+      "address": 5430,
+      "source": 175,
+      "loader_asset": 54
+    },
+    {
+      "address": 5431,
+      "source": 171,
+      "loader_asset": 6
+    },
+    {
+      "address": 5438,
+      "source": 85,
+      "loader_asset": 0
+    },
+    {
+      "address": 5439,
+      "source": 255,
+      "loader_asset": 85
+    },
+    {
+      "address": 5456,
+      "source": 255,
+      "loader_asset": 11
+    },
+    {
+      "address": 5457,
+      "source": 255,
+      "loader_asset": 185
+    },
+    {
+      "address": 5458,
+      "source": 255,
+      "loader_asset": 139
+    },
+    {
+      "address": 5459,
+      "source": 255,
+      "loader_asset": 113
+    },
+    {
+      "address": 5460,
+      "source": 255,
+      "loader_asset": 227
+    },
+    {
+      "address": 5461,
+      "source": 255,
+      "loader_asset": 91
+    },
+    {
+      "address": 5462,
+      "source": 255,
+      "loader_asset": 247
+    },
+    {
+      "address": 5463,
+      "source": 255,
+      "loader_asset": 245
+    },
+    {
+      "address": 5470,
+      "source": 85,
+      "loader_asset": 0
+    },
+    {
+      "address": 5471,
+      "source": 255,
+      "loader_asset": 85
+    },
+    {
+      "address": 5503,
+      "source": 64,
+      "loader_asset": 0
+    }
+  ],
+  "reference_sha256": "8f50988e867e54b2ce77cc1ebd89e4f575adcd69fd026cc836c7ec3940ef3b91",
+  "reference_runtime_comparison": "pending verify_vice.py"
+}

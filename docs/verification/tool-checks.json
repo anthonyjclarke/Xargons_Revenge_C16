@@ -1,0 +1,42 @@
+{
+  "python": {
+    "version": "3.12.1",
+    "executable": "/usr/local/bin/python3"
+  },
+  "minimums": {
+    "python": "3.9",
+    "cc65": "2.18",
+    "vice": "3.10",
+    "pillow": "10.1",
+    "node": "22",
+    "platformio": "6.1.19"
+  },
+  "ca65": {
+    "executable": "/opt/homebrew/bin/ca65",
+    "output": "ca65 V2.18 - N/A",
+    "exit_code": 0
+  },
+  "ld65": {
+    "executable": "/opt/homebrew/bin/ld65",
+    "output": "ld65 V2.18 - N/A",
+    "exit_code": 0
+  },
+  "node": {
+    "executable": "/opt/homebrew/bin/node",
+    "output": "v26.12.0",
+    "exit_code": 0
+  },
+  "pio": {
+    "executable": "/Users/anthonyjclarke/.platformio/penv/bin/pio",
+    "output": "PlatformIO Core, version 6.1.19",
+    "exit_code": 0
+  },
+  "vice": {
+    "executable": "/opt/homebrew/bin/xplus4",
+    "version": "3.10",
+    "method": "successful gameplay run banner"
+  },
+  "pillow": {
+    "version": "10.3.0"
+  }
+}

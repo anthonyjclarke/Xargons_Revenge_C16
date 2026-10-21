@@ -1,0 +1,6 @@
+build/
+.pio/
+__pycache__/
+*.pyc
+.DS_Store
+monitor.log
