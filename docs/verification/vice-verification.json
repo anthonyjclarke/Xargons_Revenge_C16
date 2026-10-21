@@ -13,6 +13,12 @@
   "gameplay_loop_reached": true,
   "title_flag": 0,
   "lives": 5,
+  "runtime_vector_mirror": {
+    "cpu_range": "$FFFA-$FFFF",
+    "physical_ram_range": "$3FFA-$3FFF",
+    "hex": "db1fdb1fb12b",
+    "verified": true
+  },
   "scripted_input": {
     "at": "TITTER original BIT JFIRE",
     "write": "$001D = $80; cleared at LOOP",

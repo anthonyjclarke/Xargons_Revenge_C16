@@ -7,607 +7,607 @@
       "path": "Original Source Recovered/1992/DISK9/ALIBUM5.BIN",
       "bytes": 2050,
       "sha256": "c4de32690756e9a9f47b1bb0935a13ef0a6cb59f346a199d222d8700b710de6b",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/ALIBUM6.BIN",
       "bytes": 2050,
       "sha256": "cdd86433012bbe0cb4d1a83170255b795ddc6e50b537107c0382353366fa5395",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/ALIBUM7.BIN",
       "bytes": 2050,
       "sha256": "1abc6676f19f445db18682375b1f2f15f96284b115ce6878aa8fddc56a7b6440",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/ALIBUM8.BIN",
       "bytes": 2050,
       "sha256": "6fa7b128c0eefdac80e945b726fc455f089d115c5b1c06fefd4de04c9845d642",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/ALIENCOD.TXT",
       "bytes": 4802,
       "sha256": "b639335f75180444dc4aa89349500a5e2148ce9cb57a1cab80542ffdc23013ef",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/ALIPRINT.TXT",
       "bytes": 478,
       "sha256": "5fafbf3655b6bee3c5ea7490fdf9f6331e2cc76283b28c2a11c22dfa5adc4912",
-      "category": "historical source export"
+      "category": "active fallback source"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/ALTERABL.TXT",
       "bytes": 1690,
       "sha256": "bb2a6449ab972d2e3d9d67448596d3fb5ecdf76210059f8b31efef5870448c76",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/ASMC64.BAS",
       "bytes": 44844,
       "sha256": "c739e7ef449013dcebc9fdcfd5a2164d6e1d9dfd79d34d09fbd3962873ece698",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/ASSEMGRA.TXT",
       "bytes": 125,
       "sha256": "eabc43b0284c5ee8f86591eb6bca333d438660c2cccb275a5795fef02f953386",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/BANNERDA.TXT",
       "bytes": 1624,
       "sha256": "c44c7db5ba1fe2b58813de235adceb80bb87ecbab0a529ead5eeeedb2d6016f7",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/BIGPRINT.BAS",
       "bytes": 493,
       "sha256": "d4277da1e2f9d38ffbac0ece49fd4c241b120b1f3fe744d7aeda8fca0cd64886",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/BJH.BIN",
       "bytes": 1026,
       "sha256": "e2bb69c027df487ab191b26df18ec77e2b070a904394b3a119556c1596febf2f",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/BLOBMOVE.TXT",
       "bytes": 928,
       "sha256": "07f0aa3f2733aea84fe5dbf5bcabc74f87f85ff3a0752ec9176c695fcf559157",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/BOOTALL.BAS",
       "bytes": 292,
       "sha256": "bc71addf4be5658c2b8634ec589051646cacf6d12522e32d53464e0ec6fff675",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/BOTLANDP.TXT",
       "bytes": 1103,
       "sha256": "6914f1b291555d773a73d9b39eeb969554527ed5411d3f3a3c04830802b4770d",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/C16.BAS",
       "bytes": 416,
       "sha256": "f36ef458130e60c2484f565c78a28c895437494dd172f22fe02eebf69ce51810",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/CHAR1BOT.TXT",
       "bytes": 7567,
       "sha256": "adc950e72bcf4091eb8fffeb5d17717d4c9ab5b376c2c21a3539dfec8eb4de32",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/CHAR1TOP.TXT",
       "bytes": 2671,
       "sha256": "50dc6059ade34b33accf9ffd8dbf8fa2c7586f41e3500fb294180abc26b80c9b",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/CHARANIM.TXT",
       "bytes": 283,
       "sha256": "daddd579f5711cb9151d42ed28739c24c8c22f34d4ce834a523e047917613062",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/COLOURSE.BAS",
       "bytes": 1152,
       "sha256": "6481cb77dc29863e82c258f719989c912382104e0ddfba1d983de66353f45524",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/COMPACTO.BAS",
       "bytes": 349,
       "sha256": "900dd305e36bad82668de571b3335d66d3c1121d48d63fcfc2dbcf8bc4e327e0",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/COMPLETE.TXT",
       "bytes": 3746,
       "sha256": "6cc36dbb29bfa95a1ff325f4770af7d296dabede8a8d2f3127f06fb00cb4ae64",
-      "category": "historical source export"
+      "category": "active fallback source"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/DATALAND.TXT",
       "bytes": 398,
       "sha256": "ac36eae44720e58d1db0551c1730378d2ee4aedc0b75409d36852d2b3ccd5269",
-      "category": "historical source export"
+      "category": "active fallback source"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/DEATHCOD.TXT",
       "bytes": 771,
       "sha256": "4ab670a2706c15b986ab0258214f385ba305f806200b2a61eaa913184bbff8c8",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/DESIGNER.BAS",
       "bytes": 1449,
       "sha256": "732c12f17969e6ed22788073b7b4a76f9bfc285695277860e78b0a92d0e5774b",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/DOS52.BIN",
       "bytes": 866,
       "sha256": "bc3d8fa6eda201ad7a430585d624f9b309ffc000fac4bfbc93299d03bd7bd27d",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/DOUBLEGE.BAS",
       "bytes": 802,
       "sha256": "fa87b72a499ed83aaceae1610d9a2f689df6f8cde569f336f1d348b964601fd0",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/DOUBLEWI.BAS",
       "bytes": 579,
       "sha256": "d507966631ba2670c2792e7f311849e68a74f750f7485303562c7264e734ad18",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/EDITOR64.BIN",
       "bytes": 1612,
       "sha256": "bf990fff7896b4f73ff39e01d2020aeec7630221da982c81889407051a798c16",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/EXPLOSIO.TXT",
       "bytes": 949,
       "sha256": "045917bfa77cdcc55536ca416e7e6434692791db0848dfe7b6d8d2311a1ae17b",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/EXTRAMEM.TXT",
       "bytes": 483,
       "sha256": "97ffc7bb5439f173d8a26ab0fc58a64760669de6790a237b1ee14a79e2b72246",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/FIRINGME.TXT",
       "bytes": 1466,
       "sha256": "05235d4d68e0195e593b94966662c1438552f91781c0132c29a9c8cfed02ce90",
-      "category": "historical source export"
+      "category": "active fallback source"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/FIZZLE.TXT",
       "bytes": 859,
       "sha256": "8d3a7a26eb8626e5e2a31abebc12c21bedcf63d4e0c1a7c5de3e00afa049bf4a",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/FRAK.BIN",
       "bytes": 2050,
       "sha256": "c079558302ccc7f818198a468a9f96df90d37fb16cec8801d4cb399638181faa",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/FUELCHAR.TXT",
       "bytes": 307,
       "sha256": "2462e324a6a1c021b0580cf5da4fee52937a43c818523cb88cb71d6933192f7f",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/FUELCODE.TXT",
       "bytes": 2690,
       "sha256": "9b0ab5ebcfe64c2fbc161b98c6e41328b92f138ee87d16d688216289656f6649",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/FUELGAUG.TXT",
       "bytes": 2596,
       "sha256": "50579692419ae42c88e93543c5dca17fb24e8f40ffe7b4ae1bdb60a473ef7368",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/GAMEOVER.TXT",
       "bytes": 1024,
       "sha256": "b6aca22741cd0c5e0ecdcd2362a5d93ff6671ce1356a4d71a92900b1d5217310",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/HIGHSCOR.TXT",
       "bytes": 781,
       "sha256": "066d0fbac967e74a145b2a7ac96183fbfb5b4150c2e61fe0e915548e8896b7aa",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/HILLS.BIN",
       "bytes": 658,
       "sha256": "f4cb36e820017087d813c17e9ae9dd23853aa0ae117c6f386b47bb149723ff95",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/INDEX",
       "bytes": 7698,
       "sha256": "52dea91c0de1fd2cb396f2151316e0d1514ae27e7a06d6bca991e4cba0ad6d98",
-      "category": "historical binary or utility"
+      "category": "original directory index"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/INITSHEE.TXT",
       "bytes": 743,
       "sha256": "516cd3e7e93d94f3af720fd0a018b24396541aae687ded77b87b91f0ed3cde75",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/IRQ.TXT",
       "bytes": 959,
       "sha256": "f0c06ca3ff846ca5268d4ed94538ccc6245cf806e46fadeb245c09a6c0d5e0f3",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/JOYSTIK.TXT",
       "bytes": 622,
       "sha256": "b5a23677d2d8cff324c026cef39f66f65a286272078c57e16b8c914bd722c3aa",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/KEYSCAN.TXT",
       "bytes": 667,
       "sha256": "f82165cf6e2a7091ef7afbda5853c6cd5ebf16819cbcb47e6549bb7007254938",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/LANDGO.TXT",
       "bytes": 214,
       "sha256": "3856af5cf97e713499c15eaa70ea48d0ebdc7e16700b11d0925c9ee923f47309",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/LANDSCA1.BIN",
       "bytes": 2050,
       "sha256": "757c4ce9fffb484e7bbb353bba9b7d570f3829f1ef5369fe5b314dca0421a7b2",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/LANDSCA2.BIN",
       "bytes": 2050,
       "sha256": "0dcb05a919b4146d239856e9d82948b8046a146d6438a3a4ed6ae695ccd64182",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/LEVELCOD.TXT",
       "bytes": 3972,
       "sha256": "660199d2f2e3acce712a8ab4b84cdab5bb480b101d14937c3c25880723970601",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/LOADER.BIN",
       "bytes": 86,
       "sha256": "f1ac6827d5536bbd90f2091b274bb83ff24af6f6eccea16e339695ef565ec6ad",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/MAINVARS.TXT",
       "bytes": 758,
       "sha256": "dbd2ec1e4459bf69e9379c519ea3871cfb838160b61e535d02360ced77eba721",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/MEGASUPE.BIN",
       "bytes": 1026,
       "sha256": "6115ee51712a0bd86576d14209e97bd05d859bff6f91c47c4b2e0a9032e4ba87",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/MESSAGES.TXT",
       "bytes": 569,
       "sha256": "d96d188540a51bdf9b5d4c5fb27bcbbd4d054234a2c7658e391866bf695ab5f3",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/MOVESHIP.TXT",
       "bytes": 2191,
       "sha256": "358707eef6e1156cfe1e1eced816a7fbf1194e4cffbe3c0e3878decf6196f414",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/OALI.TXT",
       "bytes": 2620,
       "sha256": "f8b3e39b11ded55b4591b40a3164cea14b2da8644b75f471f60f290eed192a98",
-      "category": "historical source export"
+      "category": "historical object listing"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/OBJ.TXT",
       "bytes": 20595,
       "sha256": "3e9012a4cd779715ca9d6809b6ea71d4774a14403e751c46c31602e74c723987",
-      "category": "historical source export"
+      "category": "historical object listing"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/PAUSEESC.TXT",
       "bytes": 1488,
       "sha256": "019a2ea1ce561a003492d4a5db5c04aa1d8bf3b9a8d69f3e767be6506e303b7b",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/PLANETS.TXT",
       "bytes": 536,
       "sha256": "358e5096ee4237bdc61321e61b4a0fb306e8b01c0c5cdbab3980f1b57f3d2db9",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/PLAYGAME.TXT",
       "bytes": 1444,
       "sha256": "63f8546e26a874876c0cbdc4f916aad0f2f83ab8ff49c53736c543a47af54de1",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/PRINTLIV.TXT",
       "bytes": 672,
       "sha256": "fa53260bb5d99014b01210788ac47369bfd41112d87092a5ca998e4492878874",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/PULSATE.TXT",
       "bytes": 307,
       "sha256": "aa1d5e060f800f033cc7b459d74cc279cfc294804de213a1fbb7e386a914c437",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/RASTERRO.TXT",
       "bytes": 2592,
       "sha256": "b4becfb1295abf72397ee6b462a5b7070bac4571403ea95eda540eb18db58517",
-      "category": "historical source export"
+      "category": "active fallback source"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/RESETCOD.TXT",
       "bytes": 1044,
       "sha256": "35cebede2fd62b26b2e56b658f015f006344a0fd7b34d1b75e5910242fefb41c",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/REVENGE.TXT",
       "bytes": 2871,
       "sha256": "dc48043889a16d25289101050cf4790003bab9a48da07e3ba9fc2f5bfb9806a2",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SCOREROU.TXT",
       "bytes": 1572,
       "sha256": "ec0466e1eac62e752115f00fd045bd2c2f85341f3ef340fdaa67187f707bd89e",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SCREENSE.TXT",
       "bytes": 2543,
       "sha256": "df89517d939e2bb01e0f8bf104582dd1a951702e16ce812cf54ffe6d4b700a2c",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SETSHEET.TXT",
       "bytes": 2186,
       "sha256": "711129641838f7c9c4e1fec71f480ea49599b4df9965046dda88cd4ebc97e796",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET1.TXT",
       "bytes": 274,
       "sha256": "eb02dc49159c777b6b7ea1eaa1326ef1fce7c8bfe21558d3c21a0743d3ad2e0b",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET2.TXT",
       "bytes": 274,
       "sha256": "04a49f2504d0abe3d1f421e69aa1e1e644724c7adb3699dcdce8a88427d03e05",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET3.TXT",
       "bytes": 303,
       "sha256": "0afc7db8c831c043fc12e5b6b8c3e5bd93370c9eb41636b83969132bfbb16bdb",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET4.TXT",
       "bytes": 294,
       "sha256": "cc260738497eb9432c9cc6b3d0d13994e8a562c81a50282059cb02d330be17f0",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET5.TXT",
       "bytes": 336,
       "sha256": "ccffbf5723a9065d9b9007496bce48533989f7299d623dd34e18f007242203bc",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET6.TXT",
       "bytes": 302,
       "sha256": "7e58abd70884dbd19cbc37f8636f2aed2aa5deceb525631b7f1df04fde944203",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET7.TXT",
       "bytes": 301,
       "sha256": "87106cd26a26ddf71f58fdad2e4d23563281e1673525909d0feacddb2225f16e",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET8.TXT",
       "bytes": 293,
       "sha256": "ba3dc98a6eb49e74b461f8c30a9c8ef17ba288445dbcdc65282158535dbfc2c3",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEET9.TXT",
       "bytes": 290,
       "sha256": "b66e2aa202dc053d83902080777a520ea56f2ad41ce0d5fccc369a482954d903",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEETA.TXT",
       "bytes": 304,
       "sha256": "8edd7953af06306059cf7a4379b125339be6329cf842cc61bb86312dcc185d2e",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEETB.TXT",
       "bytes": 296,
       "sha256": "26211f84ca24a39f5c879fd6ef31fdd8c7883ad3d9220a90f9d6e028984b9f47",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEETC.TXT",
       "bytes": 298,
       "sha256": "3bc0e4836e0bde54737f27aad4a44cf9014c9b61d5c743ac8b24c727ed99152e",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEETD.TXT",
       "bytes": 294,
       "sha256": "bc7672687763ecb4b5af89147f3457da52e581899c173c5f28029d4fe2024f45",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEETE.TXT",
       "bytes": 309,
       "sha256": "16ba3bade21cc6c09cff5085bfe22755ff9e15fd2c3d138b76f1124e15e190e3",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEETF.TXT",
       "bytes": 303,
       "sha256": "eeb44cdef70340526266369ae0a7f2d97197e69c3dc13af0d182b57bbbf83899",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHEETG.TXT",
       "bytes": 276,
       "sha256": "96953ac7d392ea7d376f4ce14c7904b17f5b00cfa50b47a288c56218148bd730",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHIPCALC.TXT",
       "bytes": 1612,
       "sha256": "593293ad0b12d977f6545093f5e11d2b6c596777c0341ba031a05887eee1244e",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHIPDEF.TXT",
       "bytes": 374,
       "sha256": "35462f0b003305759456101a2df53fc946076026a4a63a2e111e436f11f61fa7",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SHTABLE.TXT",
       "bytes": 3678,
       "sha256": "71a6b4eaa3fda31e9b51ee4a7fd39196bca7bc173d1e715243a6ff0ca705f9df",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SOUNDEFF.TXT",
       "bytes": 4385,
       "sha256": "ce03338f9e7e2eb0fe54cdd450388361cdeb37d204735086559495486ae0ecef",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/STARCODE.TXT",
       "bytes": 2664,
       "sha256": "456aa02fd9bd5c1b0d6d8ddebbf7ffbce9c12ded4b84e99901b0d8c978546c74",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/STARTER.TXT",
       "bytes": 1744,
       "sha256": "0565a951aeb92b2556137e13631efb96ec6ce7404bfe1aef110c479031d96981",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/SUPERLOA.BIN",
       "bytes": 946,
       "sha256": "8ad18afb13a8216648049c6466a1f41eb003f1e0152d12235880e6318d762d9b",
-      "category": "historical binary or utility"
+      "category": "historical development utility or loader"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/TABLES.TXT",
       "bytes": 583,
       "sha256": "bad2796842567c2f7ea5aa09dd2d0b97502ced14f6382c0c207884401574e49f",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/TITLEDAT.BIN",
       "bytes": 754,
       "sha256": "86db146d86c552d25c6df53f3971c78cc4623bae82dc0a0b03298401b2697fec",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/TITLEGEN.TXT",
       "bytes": 548,
       "sha256": "89e274d3f5e6b097c7a322aecc7d2d1855ea216701f16b16bb51110966f00ad9",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/TITLELOO.TXT",
       "bytes": 1025,
       "sha256": "c96fb5d503f4ebd5599d9cbe3b9c450275407d5b3020d5c3aa60330e7fc3b1f5",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/TITLEWOR.TXT",
       "bytes": 2466,
       "sha256": "6c3862c91e76beaf80c498cf1c7c01fa582cdc3055c9abd90001f7ace80a411d",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/TOPLANDP.TXT",
       "bytes": 951,
       "sha256": "f66a6da6da6d82279fd67cf556cbc0a19a27df4e91c0f1e559e7be3d994171bb",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/TVPICTUR.TXT",
       "bytes": 1196,
       "sha256": "5e473ad459d92acecad419718a2decaf72554304cc0d7555bcc9050481b78d9f",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/UTILS.TXT",
       "bytes": 1350,
       "sha256": "e183413b33794f43e79341d12badab28f2a70dd180c18be9d8fc7a3fa8ef01a1",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/VARS.TXT",
       "bytes": 3992,
       "sha256": "10d3097bd31cc57b28424619e48784efb41e45996064cb40902faf1d5e5aa239",
-      "category": "historical source export"
+      "category": "unused older source revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/WHOOPPEE.TXT",
       "bytes": 528,
       "sha256": "1360ff555493da058d898e0a75e0f75d04a9f9966cb6e255dcb187b10dd78536",
-      "category": "historical source export"
+      "category": "active fallback source"
     },
     {
       "path": "Original Source Recovered/1992/DISK9/XARGSCRE.BIN",
       "bytes": 1026,
       "sha256": "6cdf25b41aafb6fda5577ce9032f537a540721675481fddf7703065569df152b",
-      "category": "historical binary or utility"
+      "category": "unused older graphics revision"
     },
     {
       "path": "Original Source Recovered/1992/DISK9 - Xargon's Revenge.ZIP",

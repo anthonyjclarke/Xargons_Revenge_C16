@@ -22,7 +22,7 @@ docs-html:
 	$(NODE) scripts/build_docs.mjs
 docs-watch:
 	$(NODE) scripts/build_docs.mjs --watch
-docs-check:
+docs-check: all
 	$(PYTHON) scripts/check_generated.py
 	$(NODE) scripts/build_docs.mjs --check
 test-docs:

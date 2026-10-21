@@ -18,3 +18,7 @@ Makefile text eol=lf
 # These override generic rules for every preserved input.
 "/Original Source Recovered/**" -text -whitespace
 "/Original Artifacts/**" -text -whitespace
+
+# Keep pinned library text and its embedded copy intact.
+/scripts/vendor/** -whitespace
+/docs/XARGONS_REVENGE.html -whitespace

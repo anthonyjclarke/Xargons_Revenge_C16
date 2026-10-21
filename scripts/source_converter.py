@@ -24,7 +24,7 @@ def split_comment(line):
     return line.rstrip(), ""
 
 
-def flatten(sources, name="TYCOON-TEX", stack=()):
+def flatten(sources, name="REVENGE", stack=()):
     if name in stack:
         raise ValueError(f"Recursive include: {name}")
     result = []

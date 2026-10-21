@@ -31,7 +31,9 @@ def run_monitor(build, stem, commands):
 
 
 def verify(build):
-    build=build.resolve(); sym=labels(build)
+    build=build.resolve(); build.mkdir(parents=True,exist_ok=True)
+    write_json(build/'vice-verification.json',{'status':'running','scope':'bounded startup and reference comparison'})
+    sym=labels(build)
     for n in ['reference-memory.bin','gameplay-memory.bin','title-memory.bin','restored-title.png','restored-gameplay.png']:
         (build/n).unlink(missing_ok=True)
     # Compare before the first original game instruction, after the BASIC SYS unpacker.
@@ -51,6 +53,8 @@ def verify(build):
     if f'c:${sym["LOOP"]:04x}' not in log.lower() or len(mem)!=16384:
         raise ValueError('Main gameplay loop not reached')
     if (mem[sym['TITLE']],mem[sym['LIVES']])!=(0,5):raise ValueError('Unexpected gameplay state')
+    expected_vectors=sym['RESET'].to_bytes(2,'little')*2+sym['SERV'].to_bytes(2,'little')
+    if mem[0x3ffa:0x4000]!=expected_vectors:raise ValueError('Expected 16 KB RAM vector mirroring not observed')
     if title[sym['TITLE']]!=1:raise ValueError('Unexpected title state')
     for name in ['restored-title.png','restored-gameplay.png']:
         if not (build/name).read_bytes().startswith(b'\x89PNG\r\n\x1a\n'):raise ValueError('Missing screenshot')
@@ -67,6 +71,7 @@ def verify(build):
             'source_prg_sha256':digest(b'\x00\x04'+raw),'reference_sha256':digest(REFERENCE.read_bytes()),
             'reference_memory_sha256':digest(ref),'reference_compared_at':'$1800 before first original instruction',
             'title_rendered':True,'gameplay_loop_reached':True,'title_flag':mem[sym['TITLE']],'lives':mem[sym['LIVES']],
+            'runtime_vector_mirror':{'cpu_range':'$FFFA-$FFFF','physical_ram_range':'$3FFA-$3FFF','hex':mem[0x3ffa:0x4000].hex(),'verified':True},
             'scripted_input':{'at':'TITTER original BIT JFIRE','write':f'${sym["JFIRE"]:04X} = $80; cleared at LOOP','instruction_patches':False},
             'manual_keyboard_joystick_audio_transitions_full_playthrough_real_hardware':'pending',
             'differences':diffs,'initialized_object_differences':sum(d['address'] in obj for d in diffs),
@@ -82,3 +87,7 @@ if __name__=='__main__':
         write_json(args.build_dir/'vice-verification.json',{'status':'skipped' if args.allow_skip else 'failed','reason':str(e),'screenshots_require_graphical_session':True})
         print(str(e),file=sys.stderr)
         sys.exit(0 if args.allow_skip else 1)
+    except Exception as e:
+        write_json(args.build_dir/'vice-verification.json',{'status':'failed','reason':str(e),'validation_failure':True})
+        print(str(e),file=sys.stderr)
+        sys.exit(1)

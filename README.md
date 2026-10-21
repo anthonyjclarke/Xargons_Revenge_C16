@@ -4,6 +4,8 @@ I wrote Xargon's Revenge at Micro Projects in 1985 for the Commodore 16 and Plus
 
 ![Original cassette artwork](Original%20Artifacts/Xargons%20Revenge%20Image.jpg)
 
+I keep the history, build guides, validation, analysis, graphics and porting advice in the [complete offline HTML handbook](docs/XARGONS_REVENGE.html). It is generated from the Markdown sources; `make docs` regenerates the build, analysis, illustrations and reader.
+
 ## Build and Run
 
 I build the preserved version with Python 3.9 or later and the cc65 tools (`ca65` and `ld65`):
@@ -40,6 +42,16 @@ The running reference decompresses to identical code and embedded data, but has 
 [Changelog](CHANGELOG.md) records releases; [project context](CLAUDE.md) gives the concise build rules.
 
 The original [project brief](Xargons%20Revenge%20Prompt.md) is retained unchanged as a commissioning record. It is not historical evidence about the game.
+
+---
+
+## Learning and Future Development
+
+[Codebase Analysis](CODEBASE_ANALYSIS.md) traces the actual routines, state, timing and modification constraints. [Original Graphics](docs/GRAPHICS.md) reconstructs the ship, all alien variants, terrain and effects from preserved data. [Porting Guide](docs/PORTING_GUIDE.md) proposes separate derivative, emulator-hosted and native routes, with explicit compatibility choices and conformance tests. These guides describe future work; no new targets have been implemented.
+
+The [generated code reference](docs/analysis/CODE_REFERENCE.md), [codebase index](docs/analysis/codebase-index.json) and [asset export](docs/analysis/asset-data.json) provide addresses, logical source lines, sizes and provenance. [Maintaining the Handbook](docs/HTML_DOCUMENTATION.md) documents generation and offline source-link requirements. The preservation release's [GitHub CI result](docs/verification/ci-results.json) is recorded separately from local VICE evidence.
+
+Browser layout, runtime reader controls and print preview remain pending because the in-app browser blocked the local file preview. The handbook passes generation, link and freshness tests; [its maintenance guide](docs/HTML_DOCUMENTATION.md) records the distinction.
 
 ---
 

@@ -1,0 +1,24 @@
+{
+  "status": "blocked",
+  "tool": "cua_repl",
+  "action": "Open generated local HTML handbook",
+  "reason": "Browser URL policy disallowed file:// and explicitly prohibited workarounds or alternate browser surfaces.",
+  "completed": [
+    "19-chapter generation",
+    "internal document and section links",
+    "embedded image references",
+    "freshness and deterministic generation",
+    "watch mode",
+    "offline CSP and bundled dependency checks",
+    "individual graphics visually inspected"
+  ],
+  "not_completed": [
+    "desktop browser rendering",
+    "narrow-width browser rendering",
+    "chapter search in browser",
+    "image enlargement in browser",
+    "Mermaid runtime rendering",
+    "browser print preview"
+  ],
+  "manual_review": "requested from Anthony; no result recorded yet"
+}

@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.1.0] 21-10-2026
+
+### Added
+
+I added the codebase analysis, generated code reference and index, raw asset/table exports, ten decoded graphics references and a practical guide to same-platform derivatives, emulator hosts and native ports. The analysis records 68 active modules, 682 symbol definitions and 515 statically resolvable direct transfers, with method limits stated.
+
+I added the nineteen-chapter offline HTML handbook, configured through `docs/handbook.json`, reusing the Tycoon Tex generator, templates and licensed Marked/Mermaid dependencies. Images, styles, controls and diagram rendering are embedded. Markdown remains the source of truth. Make targets cover generation, watch mode, freshness and tests.
+
+I added three asset/composition tests and seven handbook tests. The complete suite now has thirteen Python tests and seven Node tests. I extended the isolated observations from 44 to 48 to check full-byte fire flags and confirm the score-overflow store at `$0186` with a sentinel. The preservation PRG bytes are unchanged.
+
+### Changed
+
+I expanded source/asset classification and provenance, retained the additional probe evidence and documented the original graphics alternatives, runtime glyph replacement and source-versus-reference choices. I recorded the successful GitHub Actions run for `v1.0.0` separately from local VICE checks. I reviewed the authored prose using the humanizer skill while keeping facts, uncertainty and reference material intact.
+
+Release tag: `v1.1.0`. Release commit: `v1.1.0^{commit}` (resolve with `git rev-parse`). The annotated tag records the exact release commit.
+
+### Fixed
+
+I corrected the pause instructions to Space/G from the actual keyboard matrix. The initial guide's Shift Lock statement was wrong. The preserved game instructions have not been changed.
+
+### Known limits
+
+The in-app browser blocked local file previews under its URL security policy. Desktop/narrow browser rendering, runtime reader controls, Mermaid rendering and print preview remain pending; static generation, link, embedding and freshness tests pass. Manual gameplay controls, audible sound, later transitions, full progression and real hardware remain pending. The cause of the running reference's shifted alien pages is unknown.
+
+---
+
 ## [1.0.0] 21-10-2026
 
 ### Added
@@ -12,7 +38,7 @@ I added ten regression tests, bounded PAL C16 VICE verification, screenshots, fu
 
 I added build, testing, source, validation, history, artifact, rights and sharing guides, preservation attributes, editor settings, VS Code tasks and a GitHub Actions workflow.
 
-Release tag: `v1.0.0`. Release commit: `v1.0.0^{commit}` (resolve with `git rev-parse`). The annotated tag records the exact commit without a self-referential file hash.
+Release tag: `v1.0.0`. Release commit: `f058dc8900558280c4e52188346c02e7426a6b5f`. The annotated tag records the exact commit without a self-referential file hash.
 
 ### Known limits
 

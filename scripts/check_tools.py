@@ -17,7 +17,10 @@ def check():
         except (FileNotFoundError,subprocess.SubprocessError) as e:result[name]={'available':False,'reason':str(e)}
     # macOS VICE exits early for --version; use the successful bounded run's banner.
     p=ROOT/'build/gameplay-console.log'
-    result['vice']={'executable':tool('xplus4'),'version':re.search(r'VICE Version ([\d.]+)',p.read_text()).group(1),'method':'successful gameplay run banner'} if p.exists() else {'available':False}
+    try:
+        found=tool('xplus4');banner=re.search(r'VICE Version ([\d.]+)',p.read_text()) if p.exists() else None
+        result['vice']={'executable':found,'version':banner.group(1) if banner else None,'method':'successful gameplay run banner' if banner else 'no recorded run banner'}
+    except FileNotFoundError as e:result['vice']={'available':False,'reason':str(e)}
     try:
         import PIL
         result['pillow']={'version':PIL.__version__}

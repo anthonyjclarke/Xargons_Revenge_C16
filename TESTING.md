@@ -8,7 +8,9 @@ python3 scripts/verify_vice.py
 python3 scripts/probe_gameplay_rules.py
 ```
 
-Ten regression tests cover the PRG header, size and SHA-256; all 8,094 MOS object bytes; exact source priority and the six fallbacks; loader-selected graphics and relocation; the initial input hashes; ZIP contents and the complete catalogue; missing, ambiguous and recursive includes; converter hazards; malformed object records; and malformed or cyclic disk chains.
+Ten preservation regression tests cover the PRG header, size and SHA-256; all 8,094 MOS object bytes; exact source priority and the six fallbacks; loader-selected graphics and relocation; the initial input hashes; ZIP contents and the complete catalogue; missing, ambiguous and recursive includes; converter hazards; malformed object records; and malformed or cyclic disk chains.
+
+Three additional analysis tests check exported banks against original payloads, resolve each wave record to a terminated movement stream, and compare reconstructed player pixels against captured original runtime glyphs.
 
 I also built through the direct Python command, shell launcher, Makefile and both PlatformIO environments, then compared the PRG bytes. The release and debug environments use the same underlying build. CI repeats the tests, direct build, both PlatformIO builds and byte comparisons. Local emulator checks are separate from CI; the workflow does not claim to test VICE.
 
@@ -28,7 +30,7 @@ When VICE or its graphical session is unavailable, `--allow-skip` writes a repor
 
 ## Focused Routine Probes
 
-I ran 44 isolated observations: all sixteen alien selections in each revision, score crossings at 50,000 and 100,000, eight-digit score overflow, the fuel cap, and fuel subtraction from zero and one. A caller at `$0300` sets `SEI`, `CLD`, A, X and Y, calls the original routine and stops at `$030B`. Named RAM inputs and complete result captures are retained. Interrupt concurrency, full timing and normal reachability of unusual inputs are outside this experiment.
+I ran 48 isolated observations: all sixteen alien selections in each revision, score crossings at 50,000 and 100,000, eight-digit score overflow, the fuel cap, fuel subtraction from zero and one, and full-byte fire-flag comparisons. The overflow case also places a sentinel at `$0186` and confirms the out-of-range final store overwrites it with one. A caller at `$0300` sets `SEI`, `CLD`, A, X and Y, calls the original routine and stops at `$030B`. Named RAM inputs, A/X/Y values, extra memory writes and complete result captures are retained. Calls run sequentially within each loaded revision, resetting the listed inputs rather than pretending every byte of RAM is independently initialized. Interrupt concurrency, full timing and normal reachability of unusual inputs are outside this experiment.
 
 The source selects all sixteen expected 64-byte `BJH` designs. The reference differs for wave indices 4–15. Both versions give an extra life at the tested score crossings, cap fuel at 111, wrap a forced subtraction from zero to 255 without setting death, and set death when fuel decreases from one to zero. These controlled states do not establish that a zero-fuel firing state is normally reachable.
 

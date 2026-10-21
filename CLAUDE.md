@@ -20,7 +20,7 @@ The original loader selects `BJH` (saved `$2000`, relocated `$0400`), `LANDSCAPE
 
 Run `./build.sh` or `python3 scripts/restore_c16.py`. Make and both PlatformIO environments call that same pipeline. Outputs belong in ignored `build/`. `make test`, `make verify` and `make probes` cover regression, bounded VICE startup and controlled routine calls.
 
-The source starts with five lives despite three on the packaging; the display caps icons at three. IRQ routines patch dispatch operands and rewrite glyph RAM. Flags tested with `BIT` use the high bit. Keep label-adjacent operands, alternate entries such as `SCORE+2` and `DELAY+2`, tables and writable code intact.
+The source starts with five lives despite three on the packaging; the display caps icons at three. On 16 KB RAM, vectors at `$FFFA`–`$FFFF` mirror into the font tail at `$3FFA`–`$3FFF`. IRQ routines patch dispatch operands and rewrite glyph RAM. Flags tested with `BIT` use the high bit. Keep label-adjacent operands, alternate entries such as `SCORE+2` and `DELAY+2`, tables and writable code intact.
 
 VICE screenshots need a graphical session. Automated checks disable audio and inject a recorded fire flag; they do not verify manual controls or a full game. Do not turn a skipped emulator check into a pass.
 

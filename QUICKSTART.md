@@ -22,6 +22,6 @@ python3 scripts/run_vice.py --original
 
 I use PAL C16, 16 KB RAM. The rebuilt PRG loads at `$0400` and starts at `$1800`; the original uses its BASIC `SYS 4109` decompressor. Neither launch path assumes that load and entry addresses are the same.
 
-On the title screen, `J` selects joystick, `K` keyboard, `S` sound on and `Q` sound off. Keyboard play uses `S` up, `X` down and Return to fire. Escape aborts; the source also checks Shift Lock for pause. Host key mapping and a physical joystick still need manual testing.
+On the title screen, `J` selects joystick, `K` keyboard, `S` sound on and `Q` sound off. Keyboard play uses `S` up, `X` down and Return to fire. Escape aborts; the keyboard matrix maps Space to pause and G to resume. Host key mapping and a physical joystick still need manual testing.
 
 See [Build and Run](docs/BUILD_AND_RUN.md), [Testing](TESTING.md) and the [README](README.md).

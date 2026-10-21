@@ -1,0 +1,12 @@
+{
+  "runs": [
+    {
+      "release": "v1.0.0",
+      "commit": "f058dc8900558280c4e52188346c02e7426a6b5f",
+      "run_id": 39534621910,
+      "conclusion": "success",
+      "url": "https://github.com/anthonyjclarke/Xargons_Revenge_C16/actions/runs/39534621910",
+      "scope": "regression tests, direct build, both PlatformIO environments and byte comparisons; no graphical VICE check"
+    }
+  ]
+}

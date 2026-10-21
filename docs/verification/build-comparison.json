@@ -160,5 +160,5 @@
     }
   ],
   "reference_sha256": "8f50988e867e54b2ce77cc1ebd89e4f575adcd69fd026cc836c7ec3940ef3b91",
-  "reference_runtime_comparison": "pending verify_vice.py"
+  "reference_runtime_comparison": "separate check: scripts/verify_vice.py; retained docs/verification/vice-verification.json"
 }

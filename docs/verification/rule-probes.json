@@ -1,6 +1,6 @@
 {
-  "method": "Workspace caller at $0300; SEI/CLD; A/X/Y and named RAM set as recorded; original instructions unchanged; no concurrent IRQ execution",
-  "scope": "44 isolated observations; not manual controls, timing, transitions, overflow safety or full gameplay verification",
+  "method": "Workspace caller at $0300; SEI/CLD; A/X/Y and named RAM set as recorded; original instructions unchanged; no concurrent IRQ execution; sequential calls within each loaded revision, with only listed fields/registers/blocks reset",
+  "scope": "48 isolated observations; not manual controls, timing, transitions, overflow safety or full gameplay verification",
   "source_prg_sha256": "32c13c8867ea97bb4fd60ac9a73e5d7a600c04ece5699ac37680143c12adce33",
   "reference_memory_sha256": "1b22b632ee826b7825e73b004d2ce02c02e182e4c46e7c6e7d9408c671e4576a",
   "checks": [
@@ -12,7 +12,13 @@
       "inputs": {
         "SHEET": 0
       },
-      "memory_sha256": "904e9d2ddf67ee57d37776522c51bf5ffdfa4ee81305d6b73cb4284dddb542fb",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "c2395d6cf557390f7f6cfe9b4c851dcb92082ef793a1cf03b4b8f7bce2cf117d",
       "output_hex": "00000000307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e03000000"
     },
     {
@@ -23,7 +29,13 @@
       "inputs": {
         "SHEET": 1
       },
-      "memory_sha256": "8161b2c4ce1270e19074e469f1063de7232f18e56ce4b48337924c9ee357574d",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "4bead6d168944a25b3a3c933be38dd1a6296da76ecc6c17bc87c1ee4c724078e",
       "output_hex": "01010100010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c0000"
     },
     {
@@ -34,7 +46,13 @@
       "inputs": {
         "SHEET": 2
       },
-      "memory_sha256": "7d1d7a73655fac3501a6c0d5031d8e217ecb8b1421f55f3426d71b7e65f99939",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "8d3b9d9790b842f9c18837dac8ae92d071a0e39365d6db8e0d3eec7bd3244643",
       "output_hex": "124a200f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e180000"
     },
     {
@@ -45,7 +63,13 @@
       "inputs": {
         "SHEET": 3
       },
-      "memory_sha256": "2e57798f7cfe5d8ebf3694e1a83f60f193463659223c34b5727b68c4cb9a116a",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "e3ea5d3cfa6d15bb3353ac794ccb5c623b145e6882cb4be5eb3feaca9a7f7a14",
       "output_hex": "00010000307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c18"
     },
     {
@@ -56,7 +80,13 @@
       "inputs": {
         "SHEET": 4
       },
-      "memory_sha256": "4d1249c1e9b727f38b63596923b160a92dd33978951b297d1e041c48fd3030d2",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "454e80ea52a823421db7c5a3f005a1e045c0ee9f5cf604c77087fefce79f9897",
       "output_hex": "003e03071c7eff1c037f866ce80eff381cff7e1c07033e0038ff0ee86c867f0300000078077fff1c00001f70f80cff381cff7f077800000038ff0cf8701f0000"
     },
     {
@@ -67,7 +97,13 @@
       "inputs": {
         "SHEET": 5
       },
-      "memory_sha256": "17ead586203b4b86cbc1a61aba3a5caab629c8de55d3c70cf32f476153dc74f1",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "41cd72e29fb1a1e79c1314a017c285a4d838674c9f6976ea67443df4e92e9c15",
       "output_hex": "0704050407c0cfb7f010d010f003f3edcfc0070405040700f303f010d010f00007060101fa8bababc0c00000bea2aaaaab8bfa0101060700aaa2be0000c0c000"
     },
     {
@@ -78,7 +114,13 @@
       "inputs": {
         "SHEET": 6
       },
-      "memory_sha256": "da0fd61c5ec2534c8fa51a5d891ce9451f584571c5f3fec74c197fc06b39cf43",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "418608cf2a45b4012a8a2fcc24399a389f6a4361456fc397172295c045007b4d",
       "output_hex": "070d091f17080f23e0b090f8e810f0c4611a1f0763573e1c8658f8e0c6ea7c38070d0b1e16080e03e0b0d078681070c0011b160e0317361480d86870c0e86c28"
     },
     {
@@ -89,7 +131,13 @@
       "inputs": {
         "SHEET": 7
       },
-      "memory_sha256": "8fbcb6344baee7019abdc6a1014400ee3f8532248acb59f36a9226070d8a09e0",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "70fdb97738e038deb691767ab6a3d4441dee56ac6be890702c8f09fc275f865c",
       "output_hex": "003c35253d011f2e003caca4bc80f8745ebebf5e5e2c2c1c7a7dfd7a7a343438001e12161e001f26007848687800f8643b3a3a1a1e0d0f06dc5c5c5878b0f060"
     },
     {
@@ -100,7 +148,13 @@
       "inputs": {
         "SHEET": 8
       },
-      "memory_sha256": "34776786c5e20d7ec6281e9982ca2c6a894d82d31bdeee09be8e6a176f12b77b",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "efb60bb5d63bb8ac798362ce4d309dc0c71b9f8e8785ffc6a34a6f0ca8bb409f",
       "output_hex": "010701000d1f7ffff86ef819fefcfff89f6d120d00010701f8f70cfe19f86ef8010701000d136c9ff018f0f0fcea28f4ff7f1f0d00010701f4e8eaecf0f018f0"
     },
     {
@@ -111,7 +165,13 @@
       "inputs": {
         "SHEET": 9
       },
-      "memory_sha256": "06c8ebe24b92d1e0b89b8688a3358ecb8f43926fd4ca79afac5dbeb64a8528a2",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "e967b61859501bfcf75f1df188aa0fb394923b559461993ad341d55c1569f1d8",
       "output_hex": "00000000c7fbc7034040808070f8f8f0083f7f0f2f777b3004fef4e8dcbc9800010000001b1d1b0100804040b8fcfcf8027f0f2f777b300004fcf8f0ecdcbc18"
     },
     {
@@ -122,7 +182,13 @@
       "inputs": {
         "SHEET": 10
       },
-      "memory_sha256": "ac8d9c9a998ea1324c46c83c8dfae884de7000c108466c7d16bb6bfc96807ee5",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "6f53c5dec56e21de7c6dabc3d23f800cd476b5c1496d3aa9d6d416430177dfae",
       "output_hex": "03070606060606068edbdbdbdbdbdbdb0666fedcd8f06000d9d9d8d8d8f8700060f0d8dcfe66060670f8d8d8d8d9d9db0606060606070300dbdbdbdbdbdb8e00"
     },
     {
@@ -133,7 +199,13 @@
       "inputs": {
         "SHEET": 11
       },
-      "memory_sha256": "649de904de0533fab7e6bdf7f5e81f879c7bc6e2b08ee70cc1151f60ce831144",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "154ab244f7d0b95cb36f34016e6605974246d9bd6ea8ada6ec5939e7ef3ce090",
       "output_hex": "030111310f0889f980001018e020223e89080f31110103002220e018100080002040a3110f082a3908048a10e020283828080f11a3402000a820e0108a040800"
     },
     {
@@ -144,7 +216,13 @@
       "inputs": {
         "SHEET": 12
       },
-      "memory_sha256": "afe3da46089d065508744e3285310f02b7bd8f87c514f4526bc34c0ec8905da7",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "d64db6164479bcb532c000601189b0b78d3a3aa23e4bee46d53d941d94d77ff0",
       "output_hex": "110a0a0f10609fa0885050f00806f905a656502f20180403656a0af4041820c024120a0f10204748244850f00804e212492524131008040392a424c8081020c0"
     },
     {
@@ -155,7 +233,13 @@
       "inputs": {
         "SHEET": 13
       },
-      "memory_sha256": "aeed5461298747b873f123a7c96ad1a396e4ea08bdc2b7ace63ac1897808685a",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "cb90f4adba730b814592dd4e848d10dd22d20534c8b056ff14dbd00def28a997",
       "output_hex": "0c070c00020a6aea0080818383878fb0ea6a0a02000c070cb08f878383818000000c070c000008ea0000808080878fb0ea0800000c070c00b08f878080800000"
     },
     {
@@ -166,7 +250,13 @@
       "inputs": {
         "SHEET": 14
       },
-      "memory_sha256": "6f410c248aa1df4ce94a2e2dcfe80fb413a98864daa8e24cd2526a7e45a18a35",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "b51d11e9b450a9f6784d5face800b35ebb5deee5c89e609e4a7a97445e1a596e",
       "output_hex": "00010303070f003f80800000040808f03f000f0703030100f008080400008080000000030f1e003f0030f8c0001820c03f001e0f03000000c0201800c0f83000"
     },
     {
@@ -177,7 +267,13 @@
       "inputs": {
         "SHEET": 15
       },
-      "memory_sha256": "f3f842cb8233bdaade66af05cb4a58146a7700f143e41f994c2126157ac21b50",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "7b2882f7e52eda17a4396ff6368d3c3c2a27b85fe129343cac89ce8124e5badd",
       "output_hex": "030e3c3c7c7cc382c0703c3c3e3ec34182c37c7c3c1e0f0341c33e3e3c38f0c0010206060606090b80406060606090d009060606060602019060606060604080"
     },
     {
@@ -205,7 +301,13 @@
           4
         ]
       },
-      "memory_sha256": "e439713e9dec956ff1f22c39a8ff1d515b9e7d9ccece543076aaa83802ccb3e5",
+      "registers": {
+        "a": 1,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "71e8dfcb2084dcfcd4877123b9d32ca08be94097c3a36105e65c8484f6d28141",
       "score_digits": [
         0,
         0,
@@ -217,7 +319,9 @@
         0
       ],
       "lives": 6,
-      "scradd": 1
+      "scradd": 1,
+      "overflow_store_address": 390,
+      "overflow_store_value": 0
     },
     {
       "version": "source",
@@ -244,7 +348,13 @@
           4
         ]
       },
-      "memory_sha256": "e09e742dcbdf84d21b08c8421a8a471889ed3a5c0683f688334513080b7d280f",
+      "registers": {
+        "a": 1,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "5ad6f501fb963f560025e61508111a3515920e9a27738fe738e419575eeb6ca7",
       "score_digits": [
         0,
         0,
@@ -256,7 +366,9 @@
         0
       ],
       "lives": 6,
-      "scradd": 1
+      "scradd": 1,
+      "overflow_store_address": 390,
+      "overflow_store_value": 0
     },
     {
       "version": "source",
@@ -284,7 +396,18 @@
           4
         ]
       },
-      "memory_sha256": "05cc543afd703c84d58fada207214f75a7c4699d891412eea6142e87fcd95404",
+      "registers": {
+        "a": 1,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [
+        {
+          "address": 390,
+          "hex": "aa"
+        }
+      ],
+      "memory_sha256": "12593ba60b3dda726c9fe542ec839ab057991cccd7208999989747ef851af5f4",
       "score_digits": [
         0,
         0,
@@ -296,7 +419,9 @@
         0
       ],
       "lives": 5,
-      "scradd": 1
+      "scradd": 1,
+      "overflow_store_address": 390,
+      "overflow_store_value": 1
     },
     {
       "version": "source",
@@ -308,7 +433,13 @@
         "FULINC": 4,
         "CTLFUL": 0
       },
-      "memory_sha256": "dc16ac342b062166e092a5409ab37deb47f872c85ed307cf17e996737e3de9ba",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "9cdafd30f990340d53b282e3d9aaf11a6d83ce12a652e2851a9681f055fb7639",
       "fuel": 111,
       "request": 0,
       "dead": 0
@@ -329,7 +460,13 @@
           4
         ]
       },
-      "memory_sha256": "83dd954fd6804baf5c3fa3da6fac172478d2b0044899f6141fd6884e8c70659f",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "853fd9334df02b88605aa4f76373c4673278d07d169af929508d920eeb49db9a",
       "fuel": 255,
       "request": 0,
       "dead": 0
@@ -344,10 +481,94 @@
         "DEAD": 0,
         "FXNUMB": 128
       },
-      "memory_sha256": "978b1bccaf195a4723b74ba6c14993ac6e743604d9e0f7a0ba692a814ae1b7ed",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "a94cdeb2386689f94420f12b8a99768e2e1ff06d87ac9b0e825d0e91fa6d0bdc",
       "fuel": 0,
       "request": 0,
       "dead": 1
+    },
+    {
+      "version": "source",
+      "probe": "ship-fire-80",
+      "routine": "SHIP",
+      "address": 12504,
+      "inputs": {
+        "JFIRE": 128,
+        "OLDFIR": 128,
+        "JMOVE": 1,
+        "JUP": 0,
+        "JDOWN": 0,
+        "DNTFIR": 0,
+        "DEAD": 0,
+        "LASERS": 0,
+        "FIRCNT": 1,
+        "FULDWN": 0,
+        "FUEL": 111,
+        "SNDFLG": 0,
+        "SHIPY": 7,
+        "YPIX": 3,
+        "SHPSCR": [
+          185,
+          13
+        ],
+        "SHPCOL": [
+          185,
+          9
+        ]
+      },
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "a2b4e05ca1a7718fa074539cbf2b605f1f1b206c9abf8e97e83e8047781d2616",
+      "lasers": 0,
+      "oldfire": 128
+    },
+    {
+      "version": "source",
+      "probe": "ship-fire-c0",
+      "routine": "SHIP",
+      "address": 12504,
+      "inputs": {
+        "JFIRE": 192,
+        "OLDFIR": 128,
+        "JMOVE": 1,
+        "JUP": 0,
+        "JDOWN": 0,
+        "DNTFIR": 0,
+        "DEAD": 0,
+        "LASERS": 0,
+        "FIRCNT": 1,
+        "FULDWN": 0,
+        "FUEL": 111,
+        "SNDFLG": 0,
+        "SHIPY": 7,
+        "YPIX": 3,
+        "SHPSCR": [
+          185,
+          13
+        ],
+        "SHPCOL": [
+          185,
+          9
+        ]
+      },
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "9dfb6fae5ae7a52c1e8efdb26c1f85646c515a55ec5ea0794d9d52c3dba9d41a",
+      "lasers": 1,
+      "oldfire": 192
     },
     {
       "version": "running-reference",
@@ -357,7 +578,13 @@
       "inputs": {
         "SHEET": 0
       },
-      "memory_sha256": "02365a760f01cc214618cf55dfb9a2d8c5cd7108bb0ace9cd18950394f7cdc92",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "9ebe70cc0c16dce571f3e481a1d42818f48443417f94cc55105ff8095db2e991",
       "output_hex": "00000000307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e03000000"
     },
     {
@@ -368,7 +595,13 @@
       "inputs": {
         "SHEET": 1
       },
-      "memory_sha256": "29855187a2097fc7f6409fe4195f5babe4097222dcf71cce6d70f71ceecba7f8",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "b31cfa7a74bedc1a31b4c2cd7f828c0936d58ad3b6ca39e0eb7d60aba7467af5",
       "output_hex": "01010100010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c0000"
     },
     {
@@ -379,7 +612,13 @@
       "inputs": {
         "SHEET": 2
       },
-      "memory_sha256": "8856a28b31d2f8141a980bd18a4e86e39dbcd366599344b925327cc75c40923b",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "0f2f89bc287087f5475bba20a7aa29f40829c1a31b208f54b6207fdc155e8d11",
       "output_hex": "124a200f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e180000"
     },
     {
@@ -390,7 +629,13 @@
       "inputs": {
         "SHEET": 3
       },
-      "memory_sha256": "b0d2ed3c2648fb7cb535c8cd77624c0b364bbe220b03b18e0bd1732b148df758",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "b8f0d36a52b19296f16af2f601e6dc5d5f6fd6d20b8691a70b2081d112dd03d8",
       "output_hex": "00010000307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c18"
     },
     {
@@ -401,7 +646,13 @@
       "inputs": {
         "SHEET": 4
       },
-      "memory_sha256": "f77f7f1b65a44f2f3973c317e011f28166eab44918c1ff10388e9e80f129f354",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "cfd8051128b2ef7822335dc541888431eacf92baa50233d88ab39c1be8ac8df1",
       "output_hex": "000000307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e0300000001"
     },
     {
@@ -412,7 +663,13 @@
       "inputs": {
         "SHEET": 5
       },
-      "memory_sha256": "5c12d0965d93cd992e9037f9da0f9c0367c76d64c0324170e07214246e94c088",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "610ce762efbc895e2dbfa7d247d592c1a02887fa1cdf7b8196ff7a3bc5a03c52",
       "output_hex": "010100010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c000012"
     },
     {
@@ -423,7 +680,13 @@
       "inputs": {
         "SHEET": 6
       },
-      "memory_sha256": "6b0f5c245551dabaa084252ff87dabde53c408ac9c7d7722a94b423d14009a00",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "2e076040d247c6d41d5666982e7015805d24021819c162abde0ea8c3ec106270",
       "output_hex": "4a200f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e18000000"
     },
     {
@@ -434,7 +697,13 @@
       "inputs": {
         "SHEET": 7
       },
-      "memory_sha256": "1ec05c4fbea0710199b073bb232d4cde67b3a59a1d313a0a6912efa5330d9709",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "46bd435b9f2be1a31689d9df361d29847d42b6d20ee3ea39ff2c54e76c20bbd1",
       "output_hex": "010000307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c1800"
     },
     {
@@ -445,7 +714,13 @@
       "inputs": {
         "SHEET": 8
       },
-      "memory_sha256": "d9570bfb457ff8b001cae1e8fd1900ab8c0ecdcc26a3e6a92572ea594e2db6ec",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "3dbc25ba363ebee363080f806eb0adbd313cb99979f33c821e54eae993875f8d",
       "output_hex": "0000307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e030000000101"
     },
     {
@@ -456,7 +731,13 @@
       "inputs": {
         "SHEET": 9
       },
-      "memory_sha256": "64455d115f3a9239df44c1430bc9f51d3f3141003691d69a8f6f5318a29aeb93",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "a2a53d8ff18a35a5076b7f73a0030ecbd5a8c954449e0a651754ee287b9cbd19",
       "output_hex": "0100010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c0000124a"
     },
     {
@@ -467,7 +748,13 @@
       "inputs": {
         "SHEET": 10
       },
-      "memory_sha256": "c64d46b3d52b11541d3462e3800e39feeb3c4a0c75baf0f372aa0fba1284c485",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "430fdc020dba964b4e8ed120680c3fa28f436a3ef0b22ebf8a783d72a7893435",
       "output_hex": "200f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e1800000001"
     },
     {
@@ -478,7 +765,13 @@
       "inputs": {
         "SHEET": 11
       },
-      "memory_sha256": "6f8169fc74458cbcb9ec473d7c7e0883e4c8e7f041bce20053b9a87ceaaca2e5",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "3421b2124667963a953a3e6986d159fe87cf55c5daf1268fe7b38a457ea39b37",
       "output_hex": "0000307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c18003e"
     },
     {
@@ -489,7 +782,13 @@
       "inputs": {
         "SHEET": 12
       },
-      "memory_sha256": "22eae536f9e50248fc784bc1d8a924b230210d11dfe5b4e108034c3f12390f1d",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "8c8b9bf121515665cd81cb5f782bf50ab78f4f602f43ff0b509c69224cd59664",
       "output_hex": "00307c00ff03000e003e00fc18ff007c300000000018fc003e000e000300000000000030ff000000030e3efc60ff3000000000000060fc3e0e03000000010101"
     },
     {
@@ -500,7 +799,13 @@
       "inputs": {
         "SHEET": 13
       },
-      "memory_sha256": "21ce0e8c2ee8e88e964907e8d0fee5a8bd55a282017432e73cdeb1c55cabafa5",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "76ce6c66ec59fb51e9b349dc2e760509badbe263d23a686762b4f68a1a29ed95",
       "output_hex": "00010706ed8080800080e060b7ed06070100010101b760e08000808080000030381907050e00000c1c98e0a0700e0507193830000070a0e0981c0c0000124a20"
     },
     {
@@ -511,7 +816,13 @@
       "inputs": {
         "SHEET": 14
       },
-      "memory_sha256": "60dff104ad22e6963fac64be1c49079c54b1e327498a44efff6c0d3db7caf717",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "6f63dc29640c727a97b351c3e954ee3b51effe619db41b31a9e506c94c25ee3c",
       "output_hex": "0f3f7fc4c4485204f0fcfe23237f3f071818667e18fefce01818667e18092a200f3f7fd9d9905404f0fcfe9b9b7f3f19667e180000fefc98667e180000000100"
     },
     {
@@ -522,7 +833,13 @@
       "inputs": {
         "SHEET": 15
       },
-      "memory_sha256": "a4435c967483e0bee8fce33fa3a7b67ea07d255a6791271c4de3208a539f6cb9",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "b8b73d755735d4512209f10855132918f68925a940062f4ee003c7ca88242869",
       "output_hex": "00307fcba5c0f0fc7e1e2cc4faa5cb7f3000000100fac42c1e7efcf0c00000000000304fc3181c3c3c3e1e3cc8df7f300000000000c83c1e3e3c3c1c18003e03"
     },
     {
@@ -550,7 +867,13 @@
           4
         ]
       },
-      "memory_sha256": "eb9b33915dd6d60527cbd7fd8503b526e9348c121abecea43e86ed9494a43d21",
+      "registers": {
+        "a": 1,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "5d545dfcbbc15b2acf015be45cb72f79a09b8a20a887396ae89232b52aa0c1d9",
       "score_digits": [
         0,
         0,
@@ -562,7 +885,9 @@
         0
       ],
       "lives": 6,
-      "scradd": 1
+      "scradd": 1,
+      "overflow_store_address": 390,
+      "overflow_store_value": 0
     },
     {
       "version": "running-reference",
@@ -589,7 +914,13 @@
           4
         ]
       },
-      "memory_sha256": "cb379c8437329540f9f028d1d2bc12d3724ec0318a0e4250962487db8e693ba4",
+      "registers": {
+        "a": 1,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "e2c2590f79a4fbbf01e11af7d7f0892c623d07441b6ebaa9b54d56d6b049acd0",
       "score_digits": [
         0,
         0,
@@ -601,7 +932,9 @@
         0
       ],
       "lives": 6,
-      "scradd": 1
+      "scradd": 1,
+      "overflow_store_address": 390,
+      "overflow_store_value": 0
     },
     {
       "version": "running-reference",
@@ -629,7 +962,18 @@
           4
         ]
       },
-      "memory_sha256": "139d242837068d54f9c4c4a4faafd8fdf0594566e4ca825afc03d3d4e7765780",
+      "registers": {
+        "a": 1,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [
+        {
+          "address": 390,
+          "hex": "aa"
+        }
+      ],
+      "memory_sha256": "dd8aaed526be0485467af4a81100ed129a79d937bd077e69c5df995b234c1bfc",
       "score_digits": [
         0,
         0,
@@ -641,7 +985,9 @@
         0
       ],
       "lives": 5,
-      "scradd": 1
+      "scradd": 1,
+      "overflow_store_address": 390,
+      "overflow_store_value": 1
     },
     {
       "version": "running-reference",
@@ -653,7 +999,13 @@
         "FULINC": 4,
         "CTLFUL": 0
       },
-      "memory_sha256": "b98e4e4f721d988a8861180d6de09b42be2d94c392f7ec1ca5c42dccc54f356c",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "1b686e0620e9dea5edfe0bb66b73508b5b6af8bf55f03527accb200436062479",
       "fuel": 111,
       "request": 0,
       "dead": 0
@@ -674,7 +1026,13 @@
           4
         ]
       },
-      "memory_sha256": "11b8bce4b1df1f58166afea0d13ea67b25ace90349fcfbc47e51ac1cc399579a",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "2dcbe37b319bbbee3de2294d752acc7befd634d1bccc5ba6c6fb0193db5d9541",
       "fuel": 255,
       "request": 0,
       "dead": 0
@@ -689,10 +1047,94 @@
         "DEAD": 0,
         "FXNUMB": 128
       },
-      "memory_sha256": "3005f3ee44cec04cb4c87c1f2a53b7cb3ceecf712b0cdbded3daad5fd38345a4",
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "f1cca7ea748e4d9c4d49294612583392ee134ec5d68fe8d452fb0cbcfc5323e6",
       "fuel": 0,
       "request": 0,
       "dead": 1
+    },
+    {
+      "version": "running-reference",
+      "probe": "ship-fire-80",
+      "routine": "SHIP",
+      "address": 12504,
+      "inputs": {
+        "JFIRE": 128,
+        "OLDFIR": 128,
+        "JMOVE": 1,
+        "JUP": 0,
+        "JDOWN": 0,
+        "DNTFIR": 0,
+        "DEAD": 0,
+        "LASERS": 0,
+        "FIRCNT": 1,
+        "FULDWN": 0,
+        "FUEL": 111,
+        "SNDFLG": 0,
+        "SHIPY": 7,
+        "YPIX": 3,
+        "SHPSCR": [
+          185,
+          13
+        ],
+        "SHPCOL": [
+          185,
+          9
+        ]
+      },
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "c6905f4b077a8a73ead1c76be5855e7f5e09f390555d65a0681032bbca860112",
+      "lasers": 0,
+      "oldfire": 128
+    },
+    {
+      "version": "running-reference",
+      "probe": "ship-fire-c0",
+      "routine": "SHIP",
+      "address": 12504,
+      "inputs": {
+        "JFIRE": 192,
+        "OLDFIR": 128,
+        "JMOVE": 1,
+        "JUP": 0,
+        "JDOWN": 0,
+        "DNTFIR": 0,
+        "DEAD": 0,
+        "LASERS": 0,
+        "FIRCNT": 1,
+        "FULDWN": 0,
+        "FUEL": 111,
+        "SNDFLG": 0,
+        "SHIPY": 7,
+        "YPIX": 3,
+        "SHPSCR": [
+          185,
+          13
+        ],
+        "SHPCOL": [
+          185,
+          9
+        ]
+      },
+      "registers": {
+        "a": 0,
+        "x": 0,
+        "y": 0
+      },
+      "memory_blocks": [],
+      "memory_sha256": "609afa6114c20a0cd0b881f2f37db0a17ebeeaab00ab2c3c6539225dabd83cbb",
+      "lasers": 1,
+      "oldfire": 192
     }
   ]
 }

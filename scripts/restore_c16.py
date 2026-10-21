@@ -63,7 +63,7 @@ def prepare_sources(build):
                 raise ValueError(f'Disk/extraction byte mismatch: {f.name}')
             row = {'name':f.name, 'kind':f.kind, 'bytes':len(data), 'sha256':digest(data),
                    'source':str(image.relative_to(ROOT)), 'extracted_copy':str((folder/record['output']).relative_to(ROOT)),
-                   'fallback':False, 'closed':f.closed, 'normalization':'none for binary; CR/CRLF to logical lines for SEQ; latin-1 retains comment byte AF'}
+                   'fallback':False, 'closed':f.closed, 'normalization':'none for binary; CR/CRLF to logical lines for SEQ; latin-1 maps comment byte AF to U+00AF; generated assembly UTF-8'}
             provenance.append(row)
             # Side 1 and side 2 each have a distinct LOADER; namespaces stay separate.
             if folder == EXTRACTED[1]:
@@ -169,7 +169,13 @@ def build_game(build):
     landscape=binaries['LANDSCAPE-2'][2:]
     asset_diffs=[{'address':0x1000+i,'source':x,'loader_asset':y} for i,(x,y) in enumerate(zip(terrain,landscape)) if x!=y]
     for row in manifest['files']:
-        row['role']='active source' if row['kind']=='SEQ' and row['name'] in used else ('object listing' if row['name']=='OBJ' else ('graphics source comparison' if row['kind']=='SEQ' and row['name'] in terrain_used else 'unused source or historical tool/data'))
+        if row['kind']=='SEQ' and row['name'] in used:row['role']='active source'
+        elif row['name'] in ('OBJ','O.ALI'):row['role']='object listing' if row['name']=='OBJ' else 'alternative alien object listing'
+        elif row['kind']=='SEQ' and row['name'] in terrain_used:row['role']='graphics source comparison'
+        elif row['name'] in ('BJH','LANDSCAPE-2','FRAK!') and row.get('source')==str(IMAGES[1].relative_to(ROOT)):row['role']='active loader-selected graphics'
+        elif row['name'].startswith('ALIBUM') or row['name'] in ('HILLS','LANDSCAPE-1','TITLE-DATA','XARG-SCREEN'):row['role']='alternative graphics or design data'
+        elif row['kind']=='PRG':row['role']='historical development utility, loader or saved fragment'
+        else:row['role']='unused source'
     manifest.update(used_modules=used, graphics_source_modules=terrain_used, assets=assets)
     write_json(build/'recovery-manifest.json',manifest)
     report={'load_address':f'${LOAD:04X}','entry_address':f'${ENTRY:04X}','output_bytes':output.stat().st_size,
@@ -178,7 +184,7 @@ def build_game(build):
             'object_listing_range':[min(obj),max(obj)+1],
             'unrecorded_code_bytes':[a for a in range(ENTRY,ENTRY+len(code)) if a not in obj],
             'terrain_source_bytes':len(terrain),'terrain_source_vs_loader_differences':asset_diffs,
-            'reference_sha256':digest(REFERENCE.read_bytes()),'reference_runtime_comparison':'pending verify_vice.py'}
+            'reference_sha256':digest(REFERENCE.read_bytes()),'reference_runtime_comparison':'separate check: scripts/verify_vice.py; retained docs/verification/vice-verification.json'}
     write_json(build/'comparison.json',report)
     print(json.dumps(report,indent=2))
     if differences or min(obj)!=ENTRY or max(obj)+1!=ENTRY+len(code):

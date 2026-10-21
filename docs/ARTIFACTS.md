@@ -2,7 +2,7 @@
 
 ## Provenance
 
-I confirmed on 21 October 2026 that these are my own images and scans, made from magazines or original cassettes I own. I preserve the supplied files unchanged. Their hashes and dimensions are recorded in the [input catalogue](verification/input-catalogue.json). Where a publication date or artist is not visible, I leave it unknown.
+I confirmed on 21 October 2026 that these are my own images and scans, made from magazines or original cassettes I own. I preserve the supplied files unchanged. Their hashes and categories are recorded in the [input catalogue](verification/input-catalogue.json). Where a publication date or artist is not visible, I leave it unknown.
 
 ---
 

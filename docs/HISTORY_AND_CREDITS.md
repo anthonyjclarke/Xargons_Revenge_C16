@@ -14,7 +14,7 @@ The packaging describes this as a return to Xargon after Xargon Wars, with four 
 
 The source's historical copyright notice is `(C) MICRO PROJECTS 1985`. Its scrolling message names Xargon's Revenge and thanks everyone who helped with production and design, without naming individuals. It also advertises other C16/Plus4 games from Gremlin Graphics. I have preserved that text and the notices in the assets and packaging.
 
-I confirmed on 21 October 2026 that I do not remember additional contributors or their roles. I have not assigned the concept, artwork, graphics, audio or testing to anyone without evidence. The cassette artist is not identified in the supplied material.
+I confirmed on 21 October 2026 that I do not remember additional contributors or their roles. I have not assigned the concept, artwork, graphics, audio or testing to anyone without evidence. The cassette artist is not identified in the supplied material. A sound-source comment mentions trying to write a routine like “our mate Robbie” does. It gives no surname or contribution to this game, so I have not turned it into a collaborator credit.
 
 I also confirmed that the supplied images and scans are my own, made from magazines or original cassettes I own. Ownership of those physical items does not establish copyright in every reproduced image. [Artifacts](ARTIFACTS.md) identifies their contents, and [Rights and Preservation](../RIGHTS.md) keeps the distinctions clear.
 
