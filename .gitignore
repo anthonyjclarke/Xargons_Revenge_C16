@@ -1,6 +1,17 @@
-build/
-.pio/
+# Generated output only. Original PRGs, BINs, disk images, archives and art are preserved.
+/build/
+/.pio/
+/.pioenvs/
+/.piolibdeps/
+/.venv/
+node_modules/
 __pycache__/
-*.pyc
+*.py[cod]
 .DS_Store
-monitor.log
+._*
+*.swp
+*~
+.vscode/*.log
+
+# VICE may create this before its explicit log path is applied.
+/monitor.log

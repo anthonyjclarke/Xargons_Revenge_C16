@@ -1,6 +1,6 @@
 # Source and Validation
 
-## What I Rebuilt
+## Result – 21 October 2026
 
 I rebuilt the surviving source and object-listing revision, using the standalone assets identified by its C16 autobooter and relocation loader. The output loads at `$0400` and enters at `$1800`. Its length is 15,362 bytes and SHA-256 is `32c13c8867ea97bb4fd60ac9a73e5d7a600c04ece5699ac37680143c12adce33`.
 
@@ -10,7 +10,7 @@ The loader calls for `FRAK!`, `LANDSCAPE-2` and `BJH`; it copies `BJH` into `$04
 
 ---
 
-## Input Integrity and Selection
+## Source Selection and Assembly
 
 The initial baseline records 212 supplied files, excluding `.DS_Store`. I subsequently added a byte-identical copy of the missing side 2 D64 found at the exact path recorded in the supplied capture manifest. Both disk images match their capture hashes, and every payload matches the extraction – 3 files on side 1, 94 on side 2. The 1992 ZIP and its 101-member extracted folder match byte for byte. The comparison uses a temporary extraction, never the originals.
 
@@ -18,7 +18,7 @@ The [input catalogue](verification/input-catalogue.json), [initial hashes](verif
 
 ---
 
-## Comparison with the Running Reference
+## Comparison with the Running Version
 
 The supplied 9,518-byte PRG starts at `$1001` with a BASIC `SYS 4109` stub. I ran its decompressor in VICE and stopped at `$1800` before the first original game instruction. The reference code and embedded data match every source object byte. Terrain at `$1000`–`$17FF` and the font at `$3800`–`$3FFF` also match the loader-selected assets exactly.
 
@@ -32,7 +32,7 @@ The reference's screen and attribute contents are compared before initialization
 
 ---
 
-## Behavioural Evidence and Limits
+## Emulator Evidence and Limits
 
 The rebuilt and running-reference memory both draw the title and reach gameplay with five lives. The packaging advertises three; `PRLIVE` displays at most three icons. I retain the five-life source instruction and document the discrepancy. I do not change the preservation build to agree with the inlay.
 

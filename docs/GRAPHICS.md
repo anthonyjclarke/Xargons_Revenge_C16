@@ -1,6 +1,6 @@
-# Original Graphics and Screen Composition
+# Illustrated Graphics
 
-## Inputs and Interpretation
+## How These Figures Were Made
 
 I generate these references with `scripts/analyze_codebase.py` and `scripts/render_game_graphics.py`. [asset-data.json](analysis/asset-data.json) retains raw bytes, addresses, lengths, little-endian table records, source module-line references and hashes. [graphics-manifest.json](analysis/graphics/graphics-manifest.json) records the script, asset, palette, screenshot and output hashes.
 

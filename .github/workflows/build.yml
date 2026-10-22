@@ -1,46 +1,52 @@
-name: Preserve Xargons Revenge
-on: [push, pull_request, workflow_dispatch]
+name: Reassemble Xargon's Revenge
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
-  preservation:
+  assemble:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Install pinned Python tools and assembler
+      - name: Install cc65 and PlatformIO
         run: |
           sudo apt-get update
           sudo apt-get install -y cc65 unzip
           python -m pip install platformio==6.1.19 Pillow==10.3.0
-      - name: Direct build and historical regression tests
+      - name: Build from preserved sources
+        run: python scripts/restore_c16.py
+      - name: Test historical inputs, object records and analysis
+        run: python -m unittest discover -s test -p 'test_*.py' -v
+      - name: Build both PlatformIO environments
+        run: pio run -e c16 -e c16_debug
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check generated analysis, graphics and the HTML handbook are current
+        run: make docs-check
+      - name: Test the documentation generator
+        run: node --test test/test_docs.mjs
+      - name: Check output agreement
         run: |
-          ./build.sh
-          make test
-      - name: Build both PlatformIO environments and compare bytes
-        run: |
-          pio run -e c16 -e c16_debug
           cmp build/xargons-revenge.prg build/platformio/c16/xargons-revenge.prg
           cmp build/xargons-revenge.prg build/platformio/c16_debug/xargons-revenge.prg
-      - name: Check documentation release when present
-        run: |
-          if [ -f docs/handbook.json ]; then
-            make docs-check test-docs
-          fi
       - uses: actions/upload-artifact@v4
         with:
-          name: xargons-revenge-preservation
+          name: xargons-revenge-c16
           path: |
             build/xargons-revenge.prg
+            build/comparison.json
+            build/recovery-manifest.json
             build/xargon.s
             build/xargon.lst
             build/xargon.labels
             build/xargon.map
             build/xargon.dbg
-            build/comparison.json
-            build/recovery-manifest.json

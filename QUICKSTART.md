@@ -13,11 +13,25 @@ The build checks all 8,094 original object bytes. Output: `build/xargons-revenge
 
 ---
 
-## Run
+## PlatformIO and VS Code
+
+Open this folder in VS Code, install the recommended PlatformIO extension and run the default build task. From a PlatformIO terminal:
+
+```sh
+pio run -e c16
+pio run -e c16 -t upload
+```
+
+`pio run -e c16_debug` gives the same game bytes plus debug files. Outputs land in `build/platformio/<environment>/`.
+
+---
+
+## Controls and Checks
 
 ```sh
 python3 scripts/run_vice.py
 python3 scripts/run_vice.py --original
+make verify
 ```
 
 I use PAL C16, 16 KB RAM. The rebuilt PRG loads at `$0400` and starts at `$1800`; the original uses its BASIC `SYS 4109` decompressor. Neither launch path assumes that load and entry addresses are the same.

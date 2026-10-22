@@ -1258,6 +1258,12 @@
       "category": "artwork, packaging or screenshot"
     },
     {
+      "path": "Original Artifacts/xargons_revenge.prg",
+      "bytes": 9518,
+      "sha256": "8f50988e867e54b2ce77cc1ebd89e4f575adcd69fd026cc836c7ec3940ef3b91",
+      "category": "compressed running reference"
+    },
+    {
       "path": "Original Artifacts/xargons_revenge_front.jpg",
       "bytes": 102345,
       "sha256": "7c521cf3397ad2ae8f1e85ec3d7b88e37101a3ab0252d39b56cf78de34408b54",
@@ -1268,12 +1274,6 @@
       "bytes": 19538,
       "sha256": "cc52bfe45fe97b0e3361a9a680fad9b323a0c8494df45a28e128bf8d8b318acf",
       "category": "artwork, packaging or screenshot"
-    },
-    {
-      "path": "xargons_revenge.prg",
-      "bytes": 9518,
-      "sha256": "8f50988e867e54b2ce77cc1ebd89e4f575adcd69fd026cc836c7ec3940ef3b91",
-      "category": "compressed running reference"
     }
   ],
   "legacy_archive_comparison": {

@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.2.0] 23-10-2026
+
+Structure and documentation release that aligns this repository with my Dork's Dilemma, Tycoon Tex, Xargon Wars and Xargon's Revenge v2 repositories. The game build is unchanged (SHA-256 `32c13c88…adce33`).
+
+### Added
+
+- `docs/GREMLIN_ARCHIVE.md`, the chapter shared with my other Micro Projects reconstructions, with a project section on `DISK9` and the earlier development disks.
+- A "Related Repositories" section in the README that points to `Xargons_Revenge_C16_v2`, which explains the alien difference and builds both game versions.
+- Local README badges in `docs/images/badges/`.
+- History and Credits sections on the Gremlin Archive and the book, and on how this repository relates to the template and to v2.
+- Documentation tests that check the saved handbook is current and that the full handbook has its chapters, badges and images.
+
+### Changed
+
+- The running copy `xargons_revenge.prg` moved from the repository root to `Original Artifacts/`, unchanged. The build, input catalogue and recorded input hashes use the new path.
+- README, Quick Start, Testing, Rights, Sharing on GitHub, `src/README.md` and the guide headings follow the common structure; the handbook uses the common chapter order, with the README first.
+- The handbook generator and template are shared with my other restorations; game wording now lives in `docs/handbook.json`.
+- The GitHub Actions workflow follows the common layout and also runs the documentation tests.
+- Links to Dork's Dilemma's history point at its renamed `docs/HISTORY_AND_CREDITS.md`.
+- Work happens on `dev`, with verified checkpoints merged into `main`. Common `.gitignore` across the restorations.
+
+### Removed
+
+- A planning note at the repository root, which isn't historical material. Its entry was dropped from `docs/verification/original-inputs.json`.
+
+---
+
 ## [1.1.0] 21-10-2026
 
 ### Added

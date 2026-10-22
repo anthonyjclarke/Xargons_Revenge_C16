@@ -13,6 +13,7 @@ from restore_c16 import ROOT, digest, write_json
 def catalogue():
     rows=[]
     selected={str(Path('Original Source Recovered/1992/DISK9')/name):'active fallback source' for name in ['COMPLETE.TXT','DATALAND.TXT','RASTERRO.TXT','WHOOPPEE.TXT','FIRINGME.TXT','ALIPRINT.TXT']}
+    selected['Original Artifacts/xargons_revenge.prg']='compressed running reference'
     listing={'OBJ.TXT','OALI.TXT'}
     utilities={'ASMC64.BAS','EDITOR64.BIN','DOS52.BIN','BIGPRINT.BAS','BOOTALL.BAS','C16.BAS','COLOURSE.BAS','COMPACTO.BAS','DESIGNER.BAS','DOUBLEGE.BAS','DOUBLEWI.BAS','MEGASUPE.BIN','SUPERLOA.BIN','LOADER.BIN'}
     for root in [ROOT/'Original Source Recovered',ROOT/'Original Artifacts']:
@@ -28,7 +29,6 @@ def catalogue():
             elif p.parent.name=='DISK9':
                 kind='historical object listing' if p.name in listing else 'historical development utility or loader' if p.name in utilities else 'unused older source revision' if p.suffix=='.TXT' else 'unused older graphics revision' if p.suffix=='.BIN' else 'original directory index'
             rows.append({'path':str(p.relative_to(ROOT)),'bytes':len(data),'sha256':digest(data),'category':kind})
-    ref=ROOT/'xargons_revenge.prg';rows.append({'path':ref.name,'bytes':ref.stat().st_size,'sha256':digest(ref.read_bytes()),'category':'compressed running reference'})
     archive=ROOT/"Original Source Recovered/1992/DISK9 - Xargon's Revenge.ZIP"
     with zipfile.ZipFile(archive) as z:
         ziprows=[]

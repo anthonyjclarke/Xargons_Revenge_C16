@@ -118,6 +118,7 @@ export function buildHandbook(root = ROOT, configFile = 'docs/handbook.json') {
                 if (!mime) throw new Error(`Unsupported image: ${target}`);
                 media.set(target, `data:${mime};base64,${read(target).toString('base64')}`);
             }
+            if (target.includes('/badges/')) return `<img class="badge" src="${media.get(target)}" alt="${escape(text)}">`;
             return `<img class="zoomable" src="${media.get(target)}" alt="${escape(text)}"${title ? ` title="${escape(title)}"` : ''} tabindex="0" role="button" aria-label="Enlarge: ${escape(text)}">`;
         };
         renderer.code = ({ text, lang }) => {
@@ -148,7 +149,10 @@ export function buildHandbook(root = ROOT, configFile = 'docs/handbook.json') {
     const licenses = ['scripts/vendor/MARKED-LICENSE.md', 'scripts/vendor/MERMAID-LICENSE'].map(file => `<h3>${escape(path.basename(file))}</h3><pre>${escape(read(file).toString('utf8'))}</pre>`).join('\n');
     const provenance = Object.fromEntries([...inputs].sort(([a], [b]) => a.localeCompare(b)));
     const digest = hash(JSON.stringify(provenance));
+    // Game-specific wording lives in handbook.json, so the template is shared.
     const replacements = {
+        TITLE: escape(config.title), BRANDTOP: escape(config.brand[0]), BRANDBOTTOM: escape(config.brand[1]),
+        DESCRIPTION: escape(config.description), INCLUDES: escape(config.includes),
         STYLE: css, NAV: nav, BODY: body, COUNT: String(docs.size), DIGEST: digest.slice(0, 12),
         MERMAID: scriptSafe(mermaid), CLIENT: scriptSafe(client), LICENSES: licenses,
         PROVENANCE: JSON.stringify({ inputs: provenance, digest, warnings }).replace(/</g, '\\u003c'),

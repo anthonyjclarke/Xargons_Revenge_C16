@@ -1,11 +1,20 @@
 {
     "output": "docs/XARGONS_REVENGE.html",
+    "title": "Xargon's Revenge",
+    "brand": [
+        "XARGON'S",
+        "REVENGE"
+    ],
+    "description": "Xargon's Revenge C16 restoration: history, packaging, build instructions, validation, source analysis, graphics, porting and reference.",
+    "includes": "the artwork, packaging, decoded graphics, diagrams and code reference",
     "groups": [
         {
             "id": "guide",
-            "label": "Read the game and its code",
+            "label": "Project guide",
             "sources": [
+                "README.md",
                 "docs/HISTORY_AND_CREDITS.md",
+                "docs/GREMLIN_ARCHIVE.md",
                 "docs/ARTIFACTS.md",
                 "QUICKSTART.md",
                 "docs/BUILD_AND_RUN.md",
@@ -20,15 +29,13 @@
             "id": "reference",
             "label": "Reference and maintenance",
             "sources": [
-                "README.md",
                 "docs/SOURCE_INVENTORY.md",
                 "RIGHTS.md",
+                "CHANGELOG.md",
                 "docs/SHARING_ON_GITHUB.md",
                 "src/README.md",
                 "docs/analysis/README.md",
                 "docs/HTML_DOCUMENTATION.md",
-                "CHANGELOG.md",
-                "CLAUDE.md",
                 "docs/analysis/CODE_REFERENCE.md"
             ]
         }

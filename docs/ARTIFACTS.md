@@ -24,6 +24,6 @@ I confirmed on 21 October 2026 that these are my own images and scans, made from
 
 `C16_Classics_II_English.pdf` is a single scanned compilation leaflet. The lower centre panel contains Xargon's Revenge instructions and a 1985 Gremlin Graphics notice. The surrounding panels concern Monkey Magic, Blagger and Timeslip; those panels are compilation context, not evidence about this game's implementation. The PDF has no usable text layer; I inspected a rendered copy.
 
-The restored title and gameplay screenshots in `docs/images/` are fresh VICE evidence and are labelled separately in [Source and Validation](SOURCE_AND_VALIDATION.md). The original project brief is retained at the repository root as a modern commissioning record, not a contemporary artifact.
+The restored title and gameplay screenshots in `docs/images/` are fresh VICE evidence and are labelled separately in [Source and Validation](SOURCE_AND_VALIDATION.md).
 
 [History and Credits](HISTORY_AND_CREDITS.md), [Rights and Preservation](../RIGHTS.md), [README](../README.md).

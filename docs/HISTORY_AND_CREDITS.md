@@ -1,6 +1,6 @@
 # History and Credits
 
-## Making Xargon's Revenge
+## Xargon's Revenge
 
 I wrote Xargon's Revenge for the Commodore 16 and Plus/4 in 1985. The main source calls it `XARGON II`, credits Micro Projects and says I started on a drizzly Saturday afternoon, 30 March, at 5 pm. The cassette inlay and compilation leaflet identify Gremlin Graphics Software Limited and carry a 1985 copyright notice. I do not have a more precise completion or release date.
 
@@ -20,17 +20,23 @@ I also confirmed that the supplied images and scans are my own, made from magazi
 
 ---
 
-## Recovery Background
+## The Gremlin Archive and the Book
 
-The longer recovery story, development setup and recovery-tool acknowledgements are in my companion [Dorks Dilemma C16 repository](https://github.com/anthonyjclarke/Dorks_Dilemma_C16), particularly its [Development History](https://github.com/anthonyjclarke/Dorks_Dilemma_C16/blob/main/docs/DEVELOPMENT_HISTORY.md). I have not repeated that account here.
-
-For this game I have a 1992 export and a fresh 2026 disk capture with manifests. The old `INDEX` records 7 October 1992 export timestamps; these do not date the game's development. The 2026 folder dates identify the later recovery material. I have not established an exact capture day from those labels alone.
-
-I adapted the reassembly, VICE verification, graphics and offline-handbook approach from Tycoon Tex, which in turn builds on the Dorks Dilemma restoration. This game's source priority, memory layout and reference differences are documented in [Source and Validation](SOURCE_AND_VALIDATION.md).
+Mark Hardisty's book *A Gremlin in the Works* tells the Micro Projects story, and his Gremlin Graphics Archive hosts my 1992 export of the development disks. [Gremlin Archive and the Book](GREMLIN_ARCHIVE.md) covers both, and records that `Original Source Recovered/1992/` is the archive's `DISK9`.
 
 ---
 
-## Modern Tools
+## Recovery Background and Build Template
+
+The longer recovery story, development setup and recovery-tool acknowledgements are in my companion [Dorks Dilemma C16 repository](https://github.com/anthonyjclarke/Dorks_Dilemma_C16), particularly its [History and Credits](https://github.com/anthonyjclarke/Dorks_Dilemma_C16/blob/main/docs/HISTORY_AND_CREDITS.md). I have not repeated that account here.
+
+For this game I have a 1992 export and a fresh 2026 disk capture with manifests. The old `INDEX` records 7 October 1992 export timestamps; these do not date the game's development. The 2026 folder dates identify the later recovery material. I have not established an exact capture day from those labels alone.
+
+I adapted the reassembly, VICE verification, graphics and offline-handbook approach from Tycoon Tex, which in turn builds on the Dorks Dilemma restoration. This repository is my first restoration of the game. It left the different alien graphics in the running copy unexplained; my second repository, [Xargons_Revenge_C16_v2](https://github.com/anthonyjclarke/Xargons_Revenge_C16_v2), traces them to the cassette loader and builds both versions. This game's source priority, memory layout and reference differences are documented in [Source and Validation](SOURCE_AND_VALIDATION.md).
+
+---
+
+## Tool Acknowledgements
 
 I use the cc65 assembler and linker, VICE, PlatformIO, VS Code, Python and Pillow for the preservation and analysis work. The handbook embeds Marked 17.0.5 and Mermaid 10.9.3 with their licences. The original development tools remain in the recovered collections. Their presence is evidence of the surviving environment, not proof that every tool was used for every version of the game.
 

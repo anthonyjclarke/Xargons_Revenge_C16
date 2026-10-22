@@ -13,7 +13,7 @@ python3 -m pip install platformio==6.1.19 Pillow==10.3.0
 
 ---
 
-## One Build Pipeline
+## Direct Build and PlatformIO
 
 ```sh
 python3 scripts/restore_c16.py
@@ -33,7 +33,7 @@ Generated assembly, logical-source mappings, listings, labels, maps and debug in
 
 ---
 
-## Emulator Launch
+## Running the Game
 
 ```sh
 python3 scripts/run_vice.py
@@ -52,7 +52,7 @@ VICE needs a graphical session for screenshots. In a restricted macOS process, i
 
 ---
 
-## VS Code and Maintenance
+## Cleaning and Development
 
 I open the project directory in VS Code, install the recommended extensions from `.vscode/extensions.json` and use the supplied tasks for direct build, PlatformIO builds, launch, tests and VICE checks. Debug builds provide `xargon.labels`, `xargon.map`, `xargon.lst` and `xargon.dbg`; this is not a claim that a VS Code source debugger has been connected to VICE.
 

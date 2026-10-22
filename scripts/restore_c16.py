@@ -13,7 +13,7 @@ from source_converter import convert, flatten
 ROOT = Path(__file__).resolve().parents[1]
 INPUTS = ROOT / 'Original Source Recovered'
 OLDER = INPUTS / '1992/DISK9'
-REFERENCE = ROOT / 'xargons_revenge.prg'
+REFERENCE = ROOT / 'Original Artifacts/xargons_revenge.prg'
 IMAGES = [INPUTS/'2026/XargonsRevenge-C16.d64', INPUTS/"2026/Xargon'sRevenge-C16.d64"]
 EXTRACTED = [INPUTS/f'2026/Xargons-Revenge-C16-Side{i}' for i in (1, 2)]
 FALLBACKS = {'COMPLETED-SHEET':'COMPLETE.TXT', 'DATA-LAND/CHARS':'DATALAND.TXT',

@@ -2,13 +2,13 @@
 
 ## Preserved Collections
 
-I keep `Original Source Recovered/1992/`, `Original Source Recovered/2026/`, `Original Artifacts/` and `xargons_revenge.prg` byte for byte. The original project brief is retained separately at the root. `.DS_Store` is excluded from catalogues and comparisons as host metadata. `.gitattributes` disables text conversion and whitespace cleanup for the historical collections; `.editorconfig` disables automatic newline and trailing-space changes there.
+I keep `Original Source Recovered/1992/`, `Original Source Recovered/2026/` and `Original Artifacts/` byte for byte. The running copy, `xargons_revenge.prg`, was at the repository root until 23 October 2026 and is now in `Original Artifacts/`, unchanged. `.DS_Store` is excluded from catalogues and comparisons as host metadata. `.gitattributes` disables text conversion and whitespace cleanup for the historical collections; `.editorconfig` disables automatic newline and trailing-space changes there.
 
 The complete [input catalogue](verification/input-catalogue.json) records hashes, sizes and categories. The fresh disk image originally supplied here was side 1 only. The side 2 extraction manifest identified a second image with an apostrophe in its filename; I located that exact capture, checked its SHA-256 and added it unchanged as `Original Source Recovered/2026/Xargon'sRevenge-C16.d64`.
 
 ---
 
-## Active Sources and Fallbacks
+## Active Assembly Sets and Fallback Modules
 
 The main assembly root is `REVENGE`. It expands 68 modules in the original include order. Sixty-two are present in the fresh extraction; six come from the 1992 collection through the original `INDEX`. Wildcards resolve against original Commodore names, not escaped host filenames.
 
@@ -25,7 +25,7 @@ The build validates this mapping against `INDEX` rather than selecting similar f
 
 ---
 
-## Assets and Other Material
+## Graphics and Reference Inputs
 
 `BJH` is a 1,024-byte alien pool saved at `$2000` and relocated by the original loader to `$0400`. `LANDSCAPE-2` supplies 2,048 bytes at `$1000`. `FRAK!` supplies 2,048 bytes at `$3800`. The runtime ship, alien and explosion glyphs overwrite portions of that font; an initial font atlas alone does not describe the running display.
 

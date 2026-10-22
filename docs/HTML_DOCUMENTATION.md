@@ -1,6 +1,6 @@
-# Maintaining the Offline Handbook
+# Maintaining the HTML Documentation
 
-## Source and Output
+## Source of Truth and Regeneration
 
 I edit the Markdown, not `docs/XARGONS_REVENGE.html`. `docs/handbook.json` defines the chapter order: history, artifacts, quick start, build, testing, validation, analysis, graphics, porting, then reference and maintenance. The generator uses the existing Tycoon Tex implementation and reader templates, adapted for this game.
 
@@ -24,7 +24,7 @@ The HTML embeds images, styles, reader controls, diagram renderer and library li
 
 I can copy the HTML alone to read its embedded content without internet access. To follow links to source files, JSON data, the evidence ZIP, the original PDF or Markdown, I keep the repository directory alongside it in its original structure: the HTML remains under `docs/`. External repository and project links naturally need a connection.
 
-The embedded provenance block records input SHA-256 hashes and a digest, not a build timestamp. A Markdown, image, template, renderer or configuration change makes the handbook stale. Current local file links and Markdown section anchors must resolve; broken current links fail generation. Original commissioning text and preserved source files are linked as repository material, not interpreted as build instructions.
+The embedded provenance block records input SHA-256 hashes and a digest, not a build timestamp. A Markdown, image, template, renderer or configuration change makes the handbook stale. Current local file links and Markdown section anchors must resolve; broken current links fail generation. Preserved source files are linked as repository material, not interpreted as build instructions.
 
 ---
 
@@ -34,6 +34,6 @@ The browser review should inspect the reading copy at desktop and narrow widths 
 
 The [browser check report](verification/browser-checks.json) records the blocked preview and the completed static checks. CI repeats generator tests and freshness checks, but does not claim a graphical VICE run or manual gameplay test. [Testing](../TESTING.md) separates those scopes.
 
-I add a new authored chapter to `docs/handbook.json` and link it from the README or another current chapter. Generated symbol reference content belongs in the generator. Historical sources, artwork and the original project brief remain unchanged.
+I add a new authored chapter to `docs/handbook.json` and link it from the README or another current chapter. Generated symbol reference content belongs in the generator. Historical sources and artwork remain unchanged.
 
 [README](../README.md).
